@@ -92,7 +92,7 @@ const Scrollable = ({ children, Container, ...props }: ScrollableProps) => {
         observer.unobserve(currentContent);
       };
     }
-  }, [content, scrollTrack]);
+  }, [content, scrollTrack, onHandleResize]);
 
   return (
     <>
