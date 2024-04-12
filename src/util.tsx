@@ -2,7 +2,12 @@ type Props = {
   [key: string]: any;
 };
 
-export const DefaultExcludedProps = ["children", "as"] as const;
+export const DefaultExcludedProps = [
+  "children",
+  "as",
+  "className",
+  "ref",
+] as const;
 export type TransientPropKey<
   Key extends string,
   ExcludedProps = DefaultExcludedTransientProps,
@@ -23,7 +28,7 @@ export const toTransientProps = <
   ExcludedProps = DefaultExcludedTransientProps,
 >(
   props: OtherProps,
-  excludedProps: string[] = ["children"],
+  excludedProps: string[] = ["children", "as", "className", "ref"],
 ) => {
   return Object.keys(props).reduce(
     (

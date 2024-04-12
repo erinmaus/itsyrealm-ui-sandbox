@@ -1,14 +1,15 @@
 import styled from "styled-components";
-import Window from "../../components/window/Window";
-import TitleBar from "../../components/panel/TitleBar";
-import Group from "../../components/panel/Group";
+import Button from "../../components/button/Button";
 import TextInput from "../../components/input/TextInput";
+import ItemIcon from "../../components/item/ItemIcon";
 import Label, {
   LabelFontFamily,
   LabelStyle,
 } from "../../components/label/Label";
-import Button from "../../components/button/Button";
-import ItemIcon from "../../components/item/ItemIcon";
+import Group from "../../components/panel/Group";
+import TitleBar from "../../components/panel/TitleBar";
+import Scrollable from "../../components/scrollable/Scrollable";
+import Window from "../../components/window/Window";
 import { CraftList } from "../../db/DB";
 
 export interface CraftingWindowProps {
@@ -79,7 +80,7 @@ const CraftingWindow = ({ list }: CraftingWindowProps) => {
       </TitleBar>
       <Content>
         <Group width="290px" height="228px">
-          <GridWrapper>
+          <Scrollable Container={GridWrapper}>
             <Grid>
               {list.groups
                 .filter((group) => group.actions.length > 0)
@@ -101,13 +102,18 @@ const CraftingWindow = ({ list }: CraftingWindowProps) => {
                               (output) => output.type === "Item",
                             )?.resource ?? "Null"
                           }
+                          quantity={
+                            action.outputs?.find(
+                              (output) => output.type === "Item",
+                            )?.count ?? 1
+                          }
                         />
                       </Button>
                     ))}
                   </>
                 ))}
             </Grid>
-          </GridWrapper>
+          </Scrollable>
         </Group>
         <RightColumn>
           <Group width="290px" height="228px"></Group>

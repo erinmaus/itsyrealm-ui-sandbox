@@ -3208,6 +3208,995 @@
         {
           "outputs": [
             {
+              "name": "Mithril fish hook",
+              "description": "You can make a shaky fishing rod with this fish hook.",
+              "resource": "MithrilFishHook",
+              "type": "Item",
+              "count": 1
+            },
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 162
+            }
+          ],
+          "inputs": [
+            {
+              "name": "MithrilBar",
+              "description": "It's *MithrilBar, as if you didn't know.",
+              "resource": "MithrilBar",
+              "type": "Item",
+              "count": 1
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 13243
+            }
+          ]
+        },
+        {
+          "outputs": [
+            {
+              "name": "Mithril arrowhead",
+              "description": "Delicate and hard to make.",
+              "resource": "MithrilArrowhead",
+              "type": "Item",
+              "count": 30
+            },
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 179
+            }
+          ],
+          "inputs": [
+            {
+              "name": "MithrilBar",
+              "description": "It's *MithrilBar, as if you didn't know.",
+              "resource": "MithrilBar",
+              "type": "Item",
+              "count": 1
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 13243
+            },
+            {
+              "name": "Hammer",
+              "description": "If all you have is a hammer, everything looks like a nail.",
+              "resource": "Hammer",
+              "type": "Item",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "outputs": [
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 198
+            },
+            {
+              "name": "Mithril dagger",
+              "description": "Sharp!",
+              "resource": "MithrilDagger",
+              "type": "Item",
+              "count": 1
+            }
+          ],
+          "inputs": [
+            {
+              "name": "MithrilBar",
+              "description": "It's *MithrilBar, as if you didn't know.",
+              "resource": "MithrilBar",
+              "type": "Item",
+              "count": 1
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Hammer",
+              "description": "If all you have is a hammer, everything looks like a nail.",
+              "resource": "Hammer",
+              "type": "Item",
+              "count": 1
+            },
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 13243
+            }
+          ]
+        },
+        {
+          "outputs": [
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 198
+            },
+            {
+              "name": "Mithril hatchet",
+              "description": "It's Mithril hatchet, as if you didn't know.",
+              "resource": "MithrilHatchet",
+              "type": "Item",
+              "count": 1
+            }
+          ],
+          "inputs": [
+            {
+              "name": "MithrilBar",
+              "description": "It's *MithrilBar, as if you didn't know.",
+              "resource": "MithrilBar",
+              "type": "Item",
+              "count": 1
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 13243
+            },
+            {
+              "name": "Hammer",
+              "description": "If all you have is a hammer, everything looks like a nail.",
+              "resource": "Hammer",
+              "type": "Item",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "outputs": [
+            {
+              "name": "Mithril pickaxe",
+              "description": "It's Mithril pickaxe, as if you didn't know.",
+              "resource": "MithrilPickaxe",
+              "type": "Item",
+              "count": 1
+            },
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 198
+            }
+          ],
+          "inputs": [
+            {
+              "name": "MithrilBar",
+              "description": "It's *MithrilBar, as if you didn't know.",
+              "resource": "MithrilBar",
+              "type": "Item",
+              "count": 1
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 13243
+            },
+            {
+              "name": "Hammer",
+              "description": "If all you have is a hammer, everything looks like a nail.",
+              "resource": "Hammer",
+              "type": "Item",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "outputs": [
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 219
+            },
+            {
+              "name": "Mithril boots",
+              "description": "Stronger than steel, but lighter than air.",
+              "resource": "MithrilBoots",
+              "type": "Item",
+              "count": 1
+            }
+          ],
+          "inputs": [
+            {
+              "name": "MithrilBar",
+              "description": "It's *MithrilBar, as if you didn't know.",
+              "resource": "MithrilBar",
+              "type": "Item",
+              "count": 1
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Hammer",
+              "description": "If all you have is a hammer, everything looks like a nail.",
+              "resource": "Hammer",
+              "type": "Item",
+              "count": 1
+            },
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 14705
+            }
+          ]
+        },
+        {
+          "outputs": [
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 219
+            },
+            {
+              "name": "Mithril gloves",
+              "description": "Lightweight and strong.",
+              "resource": "MithrilGloves",
+              "type": "Item",
+              "count": 1
+            }
+          ],
+          "inputs": [
+            {
+              "name": "MithrilBar",
+              "description": "It's *MithrilBar, as if you didn't know.",
+              "resource": "MithrilBar",
+              "type": "Item",
+              "count": 1
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Hammer",
+              "description": "If all you have is a hammer, everything looks like a nail.",
+              "resource": "Hammer",
+              "type": "Item",
+              "count": 1
+            },
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 14705
+            }
+          ]
+        },
+        {
+          "outputs": [
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 434
+            },
+            {
+              "name": "Mithril full helmet",
+              "description": "Keeps your hair cool and prevents concussions!",
+              "resource": "MithrilHelmet",
+              "type": "Item",
+              "count": 1
+            }
+          ],
+          "inputs": [
+            {
+              "name": "MithrilBar",
+              "description": "It's *MithrilBar, as if you didn't know.",
+              "resource": "MithrilBar",
+              "type": "Item",
+              "count": 2
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Hammer",
+              "description": "If all you have is a hammer, everything looks like a nail.",
+              "resource": "Hammer",
+              "type": "Item",
+              "count": 1
+            },
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 16320
+            }
+          ]
+        },
+        {
+          "outputs": [
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 240
+            },
+            {
+              "name": "Mithril mace",
+              "description": "Gives great concussions with minimal bounce back.",
+              "resource": "MithrilMace",
+              "type": "Item",
+              "count": 1
+            }
+          ],
+          "inputs": [
+            {
+              "name": "MithrilBar",
+              "description": "It's *MithrilBar, as if you didn't know.",
+              "resource": "MithrilBar",
+              "type": "Item",
+              "count": 1
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Hammer",
+              "description": "If all you have is a hammer, everything looks like a nail.",
+              "resource": "Hammer",
+              "type": "Item",
+              "count": 1
+            },
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 18103
+            }
+          ]
+        },
+        {
+          "outputs": [
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 795
+            },
+            {
+              "name": "Mithril shield",
+              "description": "Easy to wield.",
+              "resource": "MithrilShield",
+              "type": "Item",
+              "count": 1
+            }
+          ],
+          "inputs": [
+            {
+              "name": "MithrilBar",
+              "description": "It's *MithrilBar, as if you didn't know.",
+              "resource": "MithrilBar",
+              "type": "Item",
+              "count": 3
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Hammer",
+              "description": "If all you have is a hammer, everything looks like a nail.",
+              "resource": "Hammer",
+              "type": "Item",
+              "count": 1
+            },
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 20071
+            }
+          ]
+        },
+        {
+          "outputs": [
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 879
+            },
+            {
+              "name": "Mithril longsword",
+              "description": "Sounds like a whistle when slicing.",
+              "resource": "MithrilLongsword",
+              "type": "Item",
+              "count": 1
+            }
+          ],
+          "inputs": [
+            {
+              "name": "MithrilBar",
+              "description": "It's *MithrilBar, as if you didn't know.",
+              "resource": "MithrilBar",
+              "type": "Item",
+              "count": 3
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Hammer",
+              "description": "If all you have is a hammer, everything looks like a nail.",
+              "resource": "Hammer",
+              "type": "Item",
+              "count": 1
+            },
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 22244
+            }
+          ]
+        },
+        {
+          "outputs": [
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 1465
+            },
+            {
+              "name": "Mithril platebody",
+              "description": "Feels like wearing a shirt.",
+              "resource": "MithrilPlatebody",
+              "type": "Item",
+              "count": 1
+            }
+          ],
+          "inputs": [
+            {
+              "name": "MithrilBar",
+              "description": "It's *MithrilBar, as if you didn't know.",
+              "resource": "MithrilBar",
+              "type": "Item",
+              "count": 5
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Hammer",
+              "description": "If all you have is a hammer, everything looks like a nail.",
+              "resource": "Hammer",
+              "type": "Item",
+              "count": 1
+            },
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 22244
+            }
+          ]
+        },
+        {
+          "outputs": [
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 2175
+            },
+            {
+              "name": "Mithril zweihander",
+              "description": "Perfectly balanced, as all things should be.",
+              "resource": "MithrilZweihander",
+              "type": "Item",
+              "count": 1
+            }
+          ],
+          "inputs": [
+            {
+              "name": "MithrilBar",
+              "description": "It's *MithrilBar, as if you didn't know.",
+              "resource": "MithrilBar",
+              "type": "Item",
+              "count": 5
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Hammer",
+              "description": "If all you have is a hammer, everything looks like a nail.",
+              "resource": "Hammer",
+              "type": "Item",
+              "count": 1
+            },
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 33448
+            }
+          ]
+        },
+        {
+          "outputs": [
+            {
+              "name": "Mithril bullet",
+              "description": "Pierces weaker armors like butter.",
+              "resource": "MithrilBullet",
+              "type": "Item",
+              "count": 25
+            },
+            {
+              "name": "Engineering",
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering",
+              "type": "Skill",
+              "count": 179
+            },
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 179
+            },
+            {
+              "name": "Firemaking",
+              "description": "Lets you light fires, incense, bonfires, among other pyromaniacal activities.",
+              "resource": "Firemaking",
+              "type": "Skill",
+              "count": 179
+            }
+          ],
+          "inputs": [
+            {
+              "name": "Gunpowder",
+              "description": "Keep away from fire!",
+              "resource": "Gunpowder",
+              "type": "Item",
+              "count": 12
+            },
+            {
+              "name": "MithrilBar",
+              "description": "It's *MithrilBar, as if you didn't know.",
+              "resource": "MithrilBar",
+              "type": "Item",
+              "count": 1
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Engineering",
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering",
+              "type": "Skill",
+              "count": 13243
+            },
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 13243
+            },
+            {
+              "name": "Firemaking",
+              "description": "Lets you light fires, incense, bonfires, among other pyromaniacal activities.",
+              "resource": "Firemaking",
+              "type": "Skill",
+              "count": 13243
+            },
+            {
+              "name": "Hammer",
+              "description": "If all you have is a hammer, everything looks like a nail.",
+              "resource": "Hammer",
+              "type": "Item",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "outputs": [
+            {
+              "name": "Mithril flintlock pistol",
+              "description": "So light you may forget you're carrying it...",
+              "resource": "MithrilPistol",
+              "type": "Item",
+              "count": 1
+            },
+            {
+              "name": "Engineering",
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering",
+              "type": "Skill",
+              "count": 396
+            },
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 396
+            },
+            {
+              "name": "Firemaking",
+              "description": "Lets you light fires, incense, bonfires, among other pyromaniacal activities.",
+              "resource": "Firemaking",
+              "type": "Skill",
+              "count": 396
+            }
+          ],
+          "inputs": [
+            {
+              "name": "Black flint",
+              "description": "The pathway to pyromania!",
+              "resource": "BlackFlint",
+              "type": "Item",
+              "count": 1
+            },
+            {
+              "name": "Maple logs",
+              "description": "What pretty pink logs!",
+              "resource": "MapleLogs",
+              "type": "Item",
+              "count": 1
+            },
+            {
+              "name": "MithrilBar",
+              "description": "It's *MithrilBar, as if you didn't know.",
+              "resource": "MithrilBar",
+              "type": "Item",
+              "count": 1
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Engineering",
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering",
+              "type": "Skill",
+              "count": 14705
+            },
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 14705
+            },
+            {
+              "name": "Firemaking",
+              "description": "Lets you light fires, incense, bonfires, among other pyromaniacal activities.",
+              "resource": "Firemaking",
+              "type": "Skill",
+              "count": 14705
+            },
+            {
+              "name": "Hammer",
+              "description": "If all you have is a hammer, everything looks like a nail.",
+              "resource": "Hammer",
+              "type": "Item",
+              "count": 1
+            },
+            {
+              "name": "Knife",
+              "description": "Stabby!",
+              "resource": "Knife",
+              "type": "Item",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "outputs": [
+            {
+              "name": "Mithril musket",
+              "description": "Light, but the recoil is pretty hefty.",
+              "resource": "MithrilMusket",
+              "type": "Item",
+              "count": 1
+            },
+            {
+              "name": "Engineering",
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering",
+              "type": "Skill",
+              "count": 657
+            },
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 657
+            },
+            {
+              "name": "Firemaking",
+              "description": "Lets you light fires, incense, bonfires, among other pyromaniacal activities.",
+              "resource": "Firemaking",
+              "type": "Skill",
+              "count": 657
+            }
+          ],
+          "inputs": [
+            {
+              "name": "Black flint",
+              "description": "The pathway to pyromania!",
+              "resource": "BlackFlint",
+              "type": "Item",
+              "count": 1
+            },
+            {
+              "name": "Maple logs",
+              "description": "What pretty pink logs!",
+              "resource": "MapleLogs",
+              "type": "Item",
+              "count": 1
+            },
+            {
+              "name": "MithrilBar",
+              "description": "It's *MithrilBar, as if you didn't know.",
+              "resource": "MithrilBar",
+              "type": "Item",
+              "count": 2
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Engineering",
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering",
+              "type": "Skill",
+              "count": 16320
+            },
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 16320
+            },
+            {
+              "name": "Firemaking",
+              "description": "Lets you light fires, incense, bonfires, among other pyromaniacal activities.",
+              "resource": "Firemaking",
+              "type": "Skill",
+              "count": 16320
+            },
+            {
+              "name": "Hammer",
+              "description": "If all you have is a hammer, everything looks like a nail.",
+              "resource": "Hammer",
+              "type": "Item",
+              "count": 1
+            },
+            {
+              "name": "Knife",
+              "description": "Stabby!",
+              "resource": "Knife",
+              "type": "Item",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "outputs": [
+            {
+              "name": "Mithril blunderbuss",
+              "description": "This blunderbuss is a lot lighter than it looks.",
+              "resource": "MithrilBlunderbuss",
+              "type": "Item",
+              "count": 1
+            },
+            {
+              "name": "Engineering",
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering",
+              "type": "Skill",
+              "count": 868
+            },
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 868
+            },
+            {
+              "name": "Firemaking",
+              "description": "Lets you light fires, incense, bonfires, among other pyromaniacal activities.",
+              "resource": "Firemaking",
+              "type": "Skill",
+              "count": 868
+            }
+          ],
+          "inputs": [
+            {
+              "name": "Black flint",
+              "description": "The pathway to pyromania!",
+              "resource": "BlackFlint",
+              "type": "Item",
+              "count": 1
+            },
+            {
+              "name": "Maple logs",
+              "description": "What pretty pink logs!",
+              "resource": "MapleLogs",
+              "type": "Item",
+              "count": 1
+            },
+            {
+              "name": "MithrilBar",
+              "description": "It's *MithrilBar, as if you didn't know.",
+              "resource": "MithrilBar",
+              "type": "Item",
+              "count": 3
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Engineering",
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering",
+              "type": "Skill",
+              "count": 18103
+            },
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 18103
+            },
+            {
+              "name": "Firemaking",
+              "description": "Lets you light fires, incense, bonfires, among other pyromaniacal activities.",
+              "resource": "Firemaking",
+              "type": "Skill",
+              "count": 18103
+            },
+            {
+              "name": "Hammer",
+              "description": "If all you have is a hammer, everything looks like a nail.",
+              "resource": "Hammer",
+              "type": "Item",
+              "count": 1
+            },
+            {
+              "name": "Knife",
+              "description": "Stabby!",
+              "resource": "Knife",
+              "type": "Item",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "outputs": [
+            {
+              "name": "Mithril grenade",
+              "description": "It's Mithril grenade, as if you didn't know.",
+              "resource": "MithrilGrenade",
+              "type": "Item",
+              "count": 20
+            },
+            {
+              "name": "Engineering",
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering",
+              "type": "Skill",
+              "count": 435
+            },
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 435
+            },
+            {
+              "name": "Firemaking",
+              "description": "Lets you light fires, incense, bonfires, among other pyromaniacal activities.",
+              "resource": "Firemaking",
+              "type": "Skill",
+              "count": 435
+            }
+          ],
+          "inputs": [
+            {
+              "name": "Gunpowder",
+              "description": "Keep away from fire!",
+              "resource": "Gunpowder",
+              "type": "Item",
+              "count": 10
+            },
+            {
+              "name": "MithrilBar",
+              "description": "It's *MithrilBar, as if you didn't know.",
+              "resource": "MithrilBar",
+              "type": "Item",
+              "count": 1
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Engineering",
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering",
+              "type": "Skill",
+              "count": 37014
+            },
+            {
+              "name": "Smithing",
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing",
+              "type": "Skill",
+              "count": 37014
+            },
+            {
+              "name": "Firemaking",
+              "description": "Lets you light fires, incense, bonfires, among other pyromaniacal activities.",
+              "resource": "Firemaking",
+              "type": "Skill",
+              "count": 37014
+            },
+            {
+              "name": "Hammer",
+              "description": "If all you have is a hammer, everything looks like a nail.",
+              "resource": "Hammer",
+              "type": "Item",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "literal": "Mithril"
+    },
+    {
+      "actions": [
+        {
+          "outputs": [
+            {
               "name": "Adamant fish hook",
               "description": "You can make a spindly fishing rod with this fish hook.",
               "resource": "AdamantFishHook",
@@ -5536,995 +6525,6 @@
         }
       ],
       "literal": "Gold"
-    },
-    {
-      "actions": [
-        {
-          "outputs": [
-            {
-              "name": "Mithril fish hook",
-              "description": "You can make a shaky fishing rod with this fish hook.",
-              "resource": "MithrilFishHook",
-              "type": "Item",
-              "count": 1
-            },
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 162
-            }
-          ],
-          "inputs": [
-            {
-              "name": "MithrilBar",
-              "description": "It's *MithrilBar, as if you didn't know.",
-              "resource": "MithrilBar",
-              "type": "Item",
-              "count": 1
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 13243
-            }
-          ]
-        },
-        {
-          "outputs": [
-            {
-              "name": "Mithril arrowhead",
-              "description": "Delicate and hard to make.",
-              "resource": "MithrilArrowhead",
-              "type": "Item",
-              "count": 30
-            },
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 179
-            }
-          ],
-          "inputs": [
-            {
-              "name": "MithrilBar",
-              "description": "It's *MithrilBar, as if you didn't know.",
-              "resource": "MithrilBar",
-              "type": "Item",
-              "count": 1
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 13243
-            },
-            {
-              "name": "Hammer",
-              "description": "If all you have is a hammer, everything looks like a nail.",
-              "resource": "Hammer",
-              "type": "Item",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "outputs": [
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 198
-            },
-            {
-              "name": "Mithril dagger",
-              "description": "Sharp!",
-              "resource": "MithrilDagger",
-              "type": "Item",
-              "count": 1
-            }
-          ],
-          "inputs": [
-            {
-              "name": "MithrilBar",
-              "description": "It's *MithrilBar, as if you didn't know.",
-              "resource": "MithrilBar",
-              "type": "Item",
-              "count": 1
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Hammer",
-              "description": "If all you have is a hammer, everything looks like a nail.",
-              "resource": "Hammer",
-              "type": "Item",
-              "count": 1
-            },
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 13243
-            }
-          ]
-        },
-        {
-          "outputs": [
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 198
-            },
-            {
-              "name": "Mithril hatchet",
-              "description": "It's Mithril hatchet, as if you didn't know.",
-              "resource": "MithrilHatchet",
-              "type": "Item",
-              "count": 1
-            }
-          ],
-          "inputs": [
-            {
-              "name": "MithrilBar",
-              "description": "It's *MithrilBar, as if you didn't know.",
-              "resource": "MithrilBar",
-              "type": "Item",
-              "count": 1
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 13243
-            },
-            {
-              "name": "Hammer",
-              "description": "If all you have is a hammer, everything looks like a nail.",
-              "resource": "Hammer",
-              "type": "Item",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "outputs": [
-            {
-              "name": "Mithril pickaxe",
-              "description": "It's Mithril pickaxe, as if you didn't know.",
-              "resource": "MithrilPickaxe",
-              "type": "Item",
-              "count": 1
-            },
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 198
-            }
-          ],
-          "inputs": [
-            {
-              "name": "MithrilBar",
-              "description": "It's *MithrilBar, as if you didn't know.",
-              "resource": "MithrilBar",
-              "type": "Item",
-              "count": 1
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 13243
-            },
-            {
-              "name": "Hammer",
-              "description": "If all you have is a hammer, everything looks like a nail.",
-              "resource": "Hammer",
-              "type": "Item",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "outputs": [
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 219
-            },
-            {
-              "name": "Mithril boots",
-              "description": "Stronger than steel, but lighter than air.",
-              "resource": "MithrilBoots",
-              "type": "Item",
-              "count": 1
-            }
-          ],
-          "inputs": [
-            {
-              "name": "MithrilBar",
-              "description": "It's *MithrilBar, as if you didn't know.",
-              "resource": "MithrilBar",
-              "type": "Item",
-              "count": 1
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Hammer",
-              "description": "If all you have is a hammer, everything looks like a nail.",
-              "resource": "Hammer",
-              "type": "Item",
-              "count": 1
-            },
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 14705
-            }
-          ]
-        },
-        {
-          "outputs": [
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 219
-            },
-            {
-              "name": "Mithril gloves",
-              "description": "Lightweight and strong.",
-              "resource": "MithrilGloves",
-              "type": "Item",
-              "count": 1
-            }
-          ],
-          "inputs": [
-            {
-              "name": "MithrilBar",
-              "description": "It's *MithrilBar, as if you didn't know.",
-              "resource": "MithrilBar",
-              "type": "Item",
-              "count": 1
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Hammer",
-              "description": "If all you have is a hammer, everything looks like a nail.",
-              "resource": "Hammer",
-              "type": "Item",
-              "count": 1
-            },
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 14705
-            }
-          ]
-        },
-        {
-          "outputs": [
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 434
-            },
-            {
-              "name": "Mithril full helmet",
-              "description": "Keeps your hair cool and prevents concussions!",
-              "resource": "MithrilHelmet",
-              "type": "Item",
-              "count": 1
-            }
-          ],
-          "inputs": [
-            {
-              "name": "MithrilBar",
-              "description": "It's *MithrilBar, as if you didn't know.",
-              "resource": "MithrilBar",
-              "type": "Item",
-              "count": 2
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Hammer",
-              "description": "If all you have is a hammer, everything looks like a nail.",
-              "resource": "Hammer",
-              "type": "Item",
-              "count": 1
-            },
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 16320
-            }
-          ]
-        },
-        {
-          "outputs": [
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 240
-            },
-            {
-              "name": "Mithril mace",
-              "description": "Gives great concussions with minimal bounce back.",
-              "resource": "MithrilMace",
-              "type": "Item",
-              "count": 1
-            }
-          ],
-          "inputs": [
-            {
-              "name": "MithrilBar",
-              "description": "It's *MithrilBar, as if you didn't know.",
-              "resource": "MithrilBar",
-              "type": "Item",
-              "count": 1
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Hammer",
-              "description": "If all you have is a hammer, everything looks like a nail.",
-              "resource": "Hammer",
-              "type": "Item",
-              "count": 1
-            },
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 18103
-            }
-          ]
-        },
-        {
-          "outputs": [
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 795
-            },
-            {
-              "name": "Mithril shield",
-              "description": "Easy to wield.",
-              "resource": "MithrilShield",
-              "type": "Item",
-              "count": 1
-            }
-          ],
-          "inputs": [
-            {
-              "name": "MithrilBar",
-              "description": "It's *MithrilBar, as if you didn't know.",
-              "resource": "MithrilBar",
-              "type": "Item",
-              "count": 3
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Hammer",
-              "description": "If all you have is a hammer, everything looks like a nail.",
-              "resource": "Hammer",
-              "type": "Item",
-              "count": 1
-            },
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 20071
-            }
-          ]
-        },
-        {
-          "outputs": [
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 879
-            },
-            {
-              "name": "Mithril longsword",
-              "description": "Sounds like a whistle when slicing.",
-              "resource": "MithrilLongsword",
-              "type": "Item",
-              "count": 1
-            }
-          ],
-          "inputs": [
-            {
-              "name": "MithrilBar",
-              "description": "It's *MithrilBar, as if you didn't know.",
-              "resource": "MithrilBar",
-              "type": "Item",
-              "count": 3
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Hammer",
-              "description": "If all you have is a hammer, everything looks like a nail.",
-              "resource": "Hammer",
-              "type": "Item",
-              "count": 1
-            },
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 22244
-            }
-          ]
-        },
-        {
-          "outputs": [
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 1465
-            },
-            {
-              "name": "Mithril platebody",
-              "description": "Feels like wearing a shirt.",
-              "resource": "MithrilPlatebody",
-              "type": "Item",
-              "count": 1
-            }
-          ],
-          "inputs": [
-            {
-              "name": "MithrilBar",
-              "description": "It's *MithrilBar, as if you didn't know.",
-              "resource": "MithrilBar",
-              "type": "Item",
-              "count": 5
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Hammer",
-              "description": "If all you have is a hammer, everything looks like a nail.",
-              "resource": "Hammer",
-              "type": "Item",
-              "count": 1
-            },
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 22244
-            }
-          ]
-        },
-        {
-          "outputs": [
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 2175
-            },
-            {
-              "name": "Mithril zweihander",
-              "description": "Perfectly balanced, as all things should be.",
-              "resource": "MithrilZweihander",
-              "type": "Item",
-              "count": 1
-            }
-          ],
-          "inputs": [
-            {
-              "name": "MithrilBar",
-              "description": "It's *MithrilBar, as if you didn't know.",
-              "resource": "MithrilBar",
-              "type": "Item",
-              "count": 5
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Hammer",
-              "description": "If all you have is a hammer, everything looks like a nail.",
-              "resource": "Hammer",
-              "type": "Item",
-              "count": 1
-            },
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 33448
-            }
-          ]
-        },
-        {
-          "outputs": [
-            {
-              "name": "Mithril bullet",
-              "description": "Pierces weaker armors like butter.",
-              "resource": "MithrilBullet",
-              "type": "Item",
-              "count": 25
-            },
-            {
-              "name": "Engineering",
-              "description": "Create advanced weaponry and tech.",
-              "resource": "Engineering",
-              "type": "Skill",
-              "count": 179
-            },
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 179
-            },
-            {
-              "name": "Firemaking",
-              "description": "Lets you light fires, incense, bonfires, among other pyromaniacal activities.",
-              "resource": "Firemaking",
-              "type": "Skill",
-              "count": 179
-            }
-          ],
-          "inputs": [
-            {
-              "name": "Gunpowder",
-              "description": "Keep away from fire!",
-              "resource": "Gunpowder",
-              "type": "Item",
-              "count": 12
-            },
-            {
-              "name": "MithrilBar",
-              "description": "It's *MithrilBar, as if you didn't know.",
-              "resource": "MithrilBar",
-              "type": "Item",
-              "count": 1
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Engineering",
-              "description": "Create advanced weaponry and tech.",
-              "resource": "Engineering",
-              "type": "Skill",
-              "count": 13243
-            },
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 13243
-            },
-            {
-              "name": "Firemaking",
-              "description": "Lets you light fires, incense, bonfires, among other pyromaniacal activities.",
-              "resource": "Firemaking",
-              "type": "Skill",
-              "count": 13243
-            },
-            {
-              "name": "Hammer",
-              "description": "If all you have is a hammer, everything looks like a nail.",
-              "resource": "Hammer",
-              "type": "Item",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "outputs": [
-            {
-              "name": "Mithril flintlock pistol",
-              "description": "So light you may forget you're carrying it...",
-              "resource": "MithrilPistol",
-              "type": "Item",
-              "count": 1
-            },
-            {
-              "name": "Engineering",
-              "description": "Create advanced weaponry and tech.",
-              "resource": "Engineering",
-              "type": "Skill",
-              "count": 396
-            },
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 396
-            },
-            {
-              "name": "Firemaking",
-              "description": "Lets you light fires, incense, bonfires, among other pyromaniacal activities.",
-              "resource": "Firemaking",
-              "type": "Skill",
-              "count": 396
-            }
-          ],
-          "inputs": [
-            {
-              "name": "Black flint",
-              "description": "The pathway to pyromania!",
-              "resource": "BlackFlint",
-              "type": "Item",
-              "count": 1
-            },
-            {
-              "name": "Maple logs",
-              "description": "What pretty pink logs!",
-              "resource": "MapleLogs",
-              "type": "Item",
-              "count": 1
-            },
-            {
-              "name": "MithrilBar",
-              "description": "It's *MithrilBar, as if you didn't know.",
-              "resource": "MithrilBar",
-              "type": "Item",
-              "count": 1
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Engineering",
-              "description": "Create advanced weaponry and tech.",
-              "resource": "Engineering",
-              "type": "Skill",
-              "count": 14705
-            },
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 14705
-            },
-            {
-              "name": "Firemaking",
-              "description": "Lets you light fires, incense, bonfires, among other pyromaniacal activities.",
-              "resource": "Firemaking",
-              "type": "Skill",
-              "count": 14705
-            },
-            {
-              "name": "Hammer",
-              "description": "If all you have is a hammer, everything looks like a nail.",
-              "resource": "Hammer",
-              "type": "Item",
-              "count": 1
-            },
-            {
-              "name": "Knife",
-              "description": "Stabby!",
-              "resource": "Knife",
-              "type": "Item",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "outputs": [
-            {
-              "name": "Mithril musket",
-              "description": "Light, but the recoil is pretty hefty.",
-              "resource": "MithrilMusket",
-              "type": "Item",
-              "count": 1
-            },
-            {
-              "name": "Engineering",
-              "description": "Create advanced weaponry and tech.",
-              "resource": "Engineering",
-              "type": "Skill",
-              "count": 657
-            },
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 657
-            },
-            {
-              "name": "Firemaking",
-              "description": "Lets you light fires, incense, bonfires, among other pyromaniacal activities.",
-              "resource": "Firemaking",
-              "type": "Skill",
-              "count": 657
-            }
-          ],
-          "inputs": [
-            {
-              "name": "Black flint",
-              "description": "The pathway to pyromania!",
-              "resource": "BlackFlint",
-              "type": "Item",
-              "count": 1
-            },
-            {
-              "name": "Maple logs",
-              "description": "What pretty pink logs!",
-              "resource": "MapleLogs",
-              "type": "Item",
-              "count": 1
-            },
-            {
-              "name": "MithrilBar",
-              "description": "It's *MithrilBar, as if you didn't know.",
-              "resource": "MithrilBar",
-              "type": "Item",
-              "count": 2
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Engineering",
-              "description": "Create advanced weaponry and tech.",
-              "resource": "Engineering",
-              "type": "Skill",
-              "count": 16320
-            },
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 16320
-            },
-            {
-              "name": "Firemaking",
-              "description": "Lets you light fires, incense, bonfires, among other pyromaniacal activities.",
-              "resource": "Firemaking",
-              "type": "Skill",
-              "count": 16320
-            },
-            {
-              "name": "Hammer",
-              "description": "If all you have is a hammer, everything looks like a nail.",
-              "resource": "Hammer",
-              "type": "Item",
-              "count": 1
-            },
-            {
-              "name": "Knife",
-              "description": "Stabby!",
-              "resource": "Knife",
-              "type": "Item",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "outputs": [
-            {
-              "name": "Mithril blunderbuss",
-              "description": "This blunderbuss is a lot lighter than it looks.",
-              "resource": "MithrilBlunderbuss",
-              "type": "Item",
-              "count": 1
-            },
-            {
-              "name": "Engineering",
-              "description": "Create advanced weaponry and tech.",
-              "resource": "Engineering",
-              "type": "Skill",
-              "count": 868
-            },
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 868
-            },
-            {
-              "name": "Firemaking",
-              "description": "Lets you light fires, incense, bonfires, among other pyromaniacal activities.",
-              "resource": "Firemaking",
-              "type": "Skill",
-              "count": 868
-            }
-          ],
-          "inputs": [
-            {
-              "name": "Black flint",
-              "description": "The pathway to pyromania!",
-              "resource": "BlackFlint",
-              "type": "Item",
-              "count": 1
-            },
-            {
-              "name": "Maple logs",
-              "description": "What pretty pink logs!",
-              "resource": "MapleLogs",
-              "type": "Item",
-              "count": 1
-            },
-            {
-              "name": "MithrilBar",
-              "description": "It's *MithrilBar, as if you didn't know.",
-              "resource": "MithrilBar",
-              "type": "Item",
-              "count": 3
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Engineering",
-              "description": "Create advanced weaponry and tech.",
-              "resource": "Engineering",
-              "type": "Skill",
-              "count": 18103
-            },
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 18103
-            },
-            {
-              "name": "Firemaking",
-              "description": "Lets you light fires, incense, bonfires, among other pyromaniacal activities.",
-              "resource": "Firemaking",
-              "type": "Skill",
-              "count": 18103
-            },
-            {
-              "name": "Hammer",
-              "description": "If all you have is a hammer, everything looks like a nail.",
-              "resource": "Hammer",
-              "type": "Item",
-              "count": 1
-            },
-            {
-              "name": "Knife",
-              "description": "Stabby!",
-              "resource": "Knife",
-              "type": "Item",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "outputs": [
-            {
-              "name": "Mithril grenade",
-              "description": "It's Mithril grenade, as if you didn't know.",
-              "resource": "MithrilGrenade",
-              "type": "Item",
-              "count": 20
-            },
-            {
-              "name": "Engineering",
-              "description": "Create advanced weaponry and tech.",
-              "resource": "Engineering",
-              "type": "Skill",
-              "count": 435
-            },
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 435
-            },
-            {
-              "name": "Firemaking",
-              "description": "Lets you light fires, incense, bonfires, among other pyromaniacal activities.",
-              "resource": "Firemaking",
-              "type": "Skill",
-              "count": 435
-            }
-          ],
-          "inputs": [
-            {
-              "name": "Gunpowder",
-              "description": "Keep away from fire!",
-              "resource": "Gunpowder",
-              "type": "Item",
-              "count": 10
-            },
-            {
-              "name": "MithrilBar",
-              "description": "It's *MithrilBar, as if you didn't know.",
-              "resource": "MithrilBar",
-              "type": "Item",
-              "count": 1
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Engineering",
-              "description": "Create advanced weaponry and tech.",
-              "resource": "Engineering",
-              "type": "Skill",
-              "count": 37014
-            },
-            {
-              "name": "Smithing",
-              "description": "Allows you to smelt and smith metal items.",
-              "resource": "Smithing",
-              "type": "Skill",
-              "count": 37014
-            },
-            {
-              "name": "Firemaking",
-              "description": "Lets you light fires, incense, bonfires, among other pyromaniacal activities.",
-              "resource": "Firemaking",
-              "type": "Skill",
-              "count": 37014
-            },
-            {
-              "name": "Hammer",
-              "description": "If all you have is a hammer, everything looks like a nail.",
-              "resource": "Hammer",
-              "type": "Item",
-              "count": 1
-            }
-          ]
-        }
-      ],
-      "literal": "Misc"
     }
   ]
 }

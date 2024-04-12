@@ -3,7 +3,10 @@ import Panel, { PanelProps } from "../panel/Panel";
 
 interface WindowProps extends PanelProps {
   Frame?: React.ComponentType<PanelProps>;
-  Container?: React.ComponentType<{ children?: React.ReactNode }>;
+  Container?: React.ComponentType<{
+    children?: React.ReactNode;
+    className?: string;
+  }>;
   titleBar?: React.ReactNode;
 }
 
@@ -54,7 +57,7 @@ const Window = ({
   ...otherProps
 }: WindowProps) => {
   return (
-    <Container>
+    <Container className="disable-scrollbars">
       <Frame {...otherProps}>{children}</Frame>
     </Container>
   );

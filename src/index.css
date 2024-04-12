@@ -2,6 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
+.disable-scrollbars::-webkit-scrollbar,
+.disable-scrollbars *::-webkit-scrollbar {
+  background: transparent;
+  width: 0px;
+}
+
+.disable-scrollbars,
+.disable-scrollbars * {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
 body {
   position: relative;
 

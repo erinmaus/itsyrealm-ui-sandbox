@@ -1,7 +1,7 @@
-import ButtonImage from "./images/Button.png";
-import ButtonMaskImage from "./images/Button.mask.png";
 import styled from "styled-components";
-import { TransientProps, toTransientProps } from "../../util";
+import { toTransientProps, TransientProps } from "../../util";
+import ButtonMaskImage from "./images/Button.mask.png";
+import ButtonImage from "./images/Button.png";
 
 export interface ButtonProps {
   disabled?: boolean;
@@ -80,7 +80,7 @@ export const ButtonStyle = styled.button<TransientProps<ButtonProps>>`
 `;
 
 const Button = (props: ButtonProps) => (
-  <ButtonStyle {...toTransientProps(props)} />
+  <ButtonStyle {...toTransientProps<ButtonProps>(props)} />
 );
 
 export default Button;
