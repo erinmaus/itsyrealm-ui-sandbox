@@ -17,7 +17,7 @@ export const IconStyle = styled.div<TransientProps<ItemIconProps>>`
   height: ${(props) => props.$height ?? `${DEFAULT_HEIGHT}px`};
 
   background: center / contain no-repeat
-    url("/Icons/${(props) => props.$icon}.png");
+    url("Icons/${(props) => props.$icon}.png");
 `;
 
 const Icon = (props: ItemIconProps) => (

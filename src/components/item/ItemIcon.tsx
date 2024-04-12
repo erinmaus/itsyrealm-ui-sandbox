@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { TransientProps, toTransientProps } from "../../util";
+import { toTransientProps, TransientProps } from "../../util";
 
 export interface ItemIconProps {
   width?: string;
@@ -19,7 +19,7 @@ export const ItemIconStyle = styled.div<TransientProps<ItemIconProps>>`
   height: ${(props) => props.$height ?? `${DEFAULT_HEIGHT}px`};
 
   background: center / contain no-repeat
-    url("/Icons/Items/${(props) => props.$item}.png");
+    url("Icons/Items/${(props) => props.$item}.png");
 
   filter: ${(props) =>
     props.$disabled ? "greyscale(1) brightness(0.5)" : "none"};
