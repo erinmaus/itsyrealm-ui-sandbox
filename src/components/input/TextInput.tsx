@@ -208,7 +208,7 @@ const TextInput = ({ value, ...otherProps }: TextInputProps) => {
         setSelectionEnd(inputRef.current.selectionEnd ?? 0);
       }
     },
-    [isFocused, setSelectionEnd, setSelectionEnd],
+    [isFocused, setSelectionStart, setSelectionEnd],
   );
 
   useEffect(() => {

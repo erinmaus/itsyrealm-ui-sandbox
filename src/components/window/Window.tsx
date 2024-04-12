@@ -1,6 +1,5 @@
 import styled, { keyframes } from "styled-components";
 import Panel, { PanelProps } from "../panel/Panel";
-import { toTransientProps } from "../../util";
 
 interface WindowProps extends PanelProps {
   Frame?: React.ComponentType<PanelProps>;
