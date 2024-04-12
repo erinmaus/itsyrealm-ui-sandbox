@@ -3,8 +3,17 @@ import Window from "../../components/window/Window";
 import TitleBar from "../../components/panel/TitleBar";
 import Group from "../../components/panel/Group";
 import TextInput from "../../components/input/TextInput";
-import Label, { LabelFontFamily } from "../../components/label/Label";
+import Label, {
+  LabelFontFamily,
+  LabelStyle,
+} from "../../components/label/Label";
 import Button from "../../components/button/Button";
+import ItemIcon from "../../components/item/ItemIcon";
+import { CraftList } from "../../db/DB";
+
+export interface CraftingWindowProps {
+  list: CraftList;
+}
 
 const Content = styled.div`
   margin-top: 64px;
@@ -28,7 +37,30 @@ const InputRow = styled.div`
   align-items: center;
 `;
 
-const CraftingWindow = () => {
+const GridWrapper = styled.div`
+  position: absolute;
+
+  left: 12px;
+  right: 12px;
+  top: 12px;
+  bottom: 12px;
+
+  overflow: auto;
+`;
+
+const Grid = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  overflow: auto;
+`;
+
+const Title = styled(LabelStyle)`
+  flex-basis: 100%;
+`;
+
+const CraftingWindow = ({ list }: CraftingWindowProps) => {
   return (
     <Window width="640px" height="480px">
       <TitleBar>
@@ -46,7 +78,37 @@ const CraftingWindow = () => {
         </Button>
       </TitleBar>
       <Content>
-        <Group width="290px" height="228px" />
+        <Group width="290px" height="228px">
+          <GridWrapper>
+            <Grid>
+              {list.groups
+                .filter((group) => group.actions.length > 0)
+                .map((group) => (
+                  <>
+                    <Title
+                      as="h3"
+                      $family={LabelFontFamily.Serif}
+                      $size="1.5rem"
+                      $lineHeight="2rem"
+                    >
+                      {group.literal}
+                    </Title>
+                    {group.actions.map((action) => (
+                      <Button width="48px" height="48px">
+                        <ItemIcon
+                          item={
+                            action.outputs?.find(
+                              (output) => output.type === "Item",
+                            )?.resource ?? "Null"
+                          }
+                        />
+                      </Button>
+                    ))}
+                  </>
+                ))}
+            </Grid>
+          </GridWrapper>
+        </Group>
         <RightColumn>
           <Group width="290px" height="228px"></Group>
           <Label

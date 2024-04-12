@@ -17,7 +17,7 @@ export interface LabelProps {
   children?: React.ReactNode;
 }
 
-const LabelStyle = styled.p<TransientProps<LabelProps>>`
+export const LabelStyle = styled.p<TransientProps<LabelProps>>`
   font-family: ${(props) => props.$family ?? "Roboto"};
   font-size: ${(props) => props.$size ?? "1rem"};
   line-height: ${(props) => props.$lineHeight ?? props.$size ?? "1rem"};

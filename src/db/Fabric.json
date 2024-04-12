@@ -1,0 +1,2525 @@
+{
+  "groups": [
+    {
+      "literal": "Blue Cotton",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 0,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 0,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 16,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 16,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Blue cotton gloves",
+              "count": 1,
+              "description": "Not very blue.",
+              "resource": "BlueCottonGloves"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Blue cotton",
+              "count": 1,
+              "description": "How nice, it already has a pattern!",
+              "resource": "BlueCotton"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 1,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Air Rune",
+              "count": 2,
+              "description": "Just wants to be free.",
+              "resource": "AirRune"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 0,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 0,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 16,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 16,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Blue cotton slippers",
+              "count": 1,
+              "description": "For when you need to kill a demon then hit the hay.",
+              "resource": "BlueCottonSlippers"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Blue cotton",
+              "count": 1,
+              "description": "How nice, it already has a pattern!",
+              "resource": "BlueCotton"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 1,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Air Rune",
+              "count": 2,
+              "description": "Just wants to be free.",
+              "resource": "AirRune"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 82,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 82,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 30,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 30,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Blue cotton hat",
+              "count": 1,
+              "description": "You know what they say about big hats...",
+              "resource": "BlueCottonHat"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Blue cotton",
+              "count": 2,
+              "description": "How nice, it already has a pattern!",
+              "resource": "BlueCotton"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 3,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Air Rune",
+              "count": 4,
+              "description": "Just wants to be free.",
+              "resource": "AirRune"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 273,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 273,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 51,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 51,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Blue book",
+              "count": 1,
+              "description": "A glorified picture book. Might as well use it as a shield.",
+              "resource": "BlueCottonShield"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Blue cotton",
+              "count": 3,
+              "description": "How nice, it already has a pattern!",
+              "resource": "BlueCotton"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 4,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Air Rune",
+              "count": 6,
+              "description": "Just wants to be free.",
+              "resource": "AirRune"
+            },
+            {
+              "type": "Item",
+              "name": "Common logs",
+              "count": 1,
+              "description": "Logs from trees commonly found across the Realm.",
+              "resource": "CommonLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 384,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 384,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 105,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 105,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Blue cotton robe",
+              "count": 1,
+              "description": "When you need to be that fumbling old grandpa.",
+              "resource": "BlueCottonRobe"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Blue cotton",
+              "count": 5,
+              "description": "How nice, it already has a pattern!",
+              "resource": "BlueCotton"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 7,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Air Rune",
+              "count": 10,
+              "description": "Just wants to be free.",
+              "resource": "AirRune"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Cheep Cotton",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1139,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Ace pride cape",
+              "count": 1,
+              "description": "A cape perfect for those who are ace.",
+              "resource": "AcePrideCape"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 75,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Cotton cloth",
+              "count": 1,
+              "description": "Spun from cheep fur, obviously. Not from some plant... That would be weird!",
+              "resource": "CottonCloth"
+            },
+            {
+              "type": "Item",
+              "name": "Black dye",
+              "count": 1,
+              "description": "A beautiful black dye.",
+              "resource": "BlackDye"
+            },
+            {
+              "type": "Item",
+              "name": "White dye",
+              "count": 1,
+              "description": "A whimsical white dye.",
+              "resource": "WhiteDye"
+            },
+            {
+              "type": "Item",
+              "name": "Purple dye",
+              "count": 1,
+              "description": "A pretty purple dye.",
+              "resource": "PurpleDye"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1340,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 1340,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 34,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 34,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "White cotton gloves",
+              "count": 1,
+              "description": "Are these made out of socks...?",
+              "resource": "CottonClothGloves"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Cotton cloth",
+              "count": 1,
+              "description": "Spun from cheep fur, obviously. Not from some plant... That would be weird!",
+              "resource": "CottonCloth"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 1,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Air Rune",
+              "count": 2,
+              "description": "Just wants to be free.",
+              "resource": "AirRune"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1340,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 1340,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 34,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 34,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "White cotton socks",
+              "count": 1,
+              "description": "...socks? Really?",
+              "resource": "CottonClothSlippers"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Cotton cloth",
+              "count": 1,
+              "description": "Spun from cheep fur, obviously. Not from some plant... That would be weird!",
+              "resource": "CottonCloth"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 1,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Air Rune",
+              "count": 2,
+              "description": "Just wants to be free.",
+              "resource": "AirRune"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1562,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 1562,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 76,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 76,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "White cotton hat",
+              "count": 1,
+              "description": "Stinks.",
+              "resource": "CottonClothHat"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Cotton cloth",
+              "count": 2,
+              "description": "Spun from cheep fur, obviously. Not from some plant... That would be weird!",
+              "resource": "CottonCloth"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 3,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Air Rune",
+              "count": 4,
+              "description": "Just wants to be free.",
+              "resource": "AirRune"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 2079,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 2079,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 138,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 138,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Boo book",
+              "count": 1,
+              "description": "Wow, what a scary book.",
+              "resource": "CottonClothShield"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Cotton cloth",
+              "count": 3,
+              "description": "Spun from cheep fur, obviously. Not from some plant... That would be weird!",
+              "resource": "CottonCloth"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 4,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Air Rune",
+              "count": 6,
+              "description": "Just wants to be free.",
+              "resource": "AirRune"
+            },
+            {
+              "type": "Item",
+              "name": "Willow logs",
+              "count": 1,
+              "description": "Logs found from a common willow.",
+              "resource": "WillowLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 2379,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 2379,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 250,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 250,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "White cotton robe",
+              "count": 1,
+              "description": "This is just made out of a bunch of socks patched together...",
+              "resource": "CottonClothRobe"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Cotton cloth",
+              "count": 5,
+              "description": "Spun from cheep fur, obviously. Not from some plant... That would be weird!",
+              "resource": "CottonCloth"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 7,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Air Rune",
+              "count": 10,
+              "description": "Just wants to be free.",
+              "resource": "AirRune"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Spider Silk",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 4958,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 4958,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 81,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 81,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Spider silk gloves",
+              "count": 1,
+              "description": "Sticky but effective!",
+              "resource": "SpiderSilkGloves"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Spider silk",
+              "count": 1,
+              "description": "Fine silk made from spider webs.",
+              "resource": "SpiderSilk"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 1,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Water Rune",
+              "count": 2,
+              "description": "Slimy!",
+              "resource": "WaterRune"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 4958,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 4958,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 81,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 81,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Spider silk slippers",
+              "count": 1,
+              "description": "These give you an extra bounce in your step...",
+              "resource": "SpiderSilkSlippers"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Spider silk",
+              "count": 1,
+              "description": "Fine silk made from spider webs.",
+              "resource": "SpiderSilk"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 1,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Water Rune",
+              "count": 2,
+              "description": "Slimy!",
+              "resource": "WaterRune"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 5558,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 5558,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 180,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 180,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Spider silk hat",
+              "count": 1,
+              "description": "Aw, comes with a little spider buddy!",
+              "resource": "SpiderSilkHat"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Spider silk",
+              "count": 2,
+              "description": "Fine silk made from spider webs.",
+              "resource": "SpiderSilk"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 3,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Water Rune",
+              "count": 4,
+              "description": "Slimy!",
+              "resource": "WaterRune"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 6951,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 6951,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 327,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 327,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Spider web",
+              "count": 1,
+              "description": "How can this provide any protection?!",
+              "resource": "SpiderSilkShield"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Spider silk",
+              "count": 3,
+              "description": "Fine silk made from spider webs.",
+              "resource": "SpiderSilk"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 4,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Water Rune",
+              "count": 6,
+              "description": "Slimy!",
+              "resource": "WaterRune"
+            },
+            {
+              "type": "Item",
+              "name": "Oak logs",
+              "count": 1,
+              "description": "Some solid oak logs, good for weapon making and other things.",
+              "resource": "OakLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 7758,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 7758,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 605,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 605,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Spider silk robe",
+              "count": 1,
+              "description": "Fits like a glove. Don't get too comfy!",
+              "resource": "SpiderSilkRobe"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Spider silk",
+              "count": 5,
+              "description": "Fine silk made from spider webs.",
+              "resource": "SpiderSilk"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 7,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Water Rune",
+              "count": 10,
+              "description": "Slimy!",
+              "resource": "WaterRune"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Mystic Cotton",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 14705,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 14705,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 219,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 219,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Mystic cotton gloves",
+              "count": 1,
+              "description": "Asymmetric, the definition of cool.",
+              "resource": "MysticCottonGloves"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Mystic cotton",
+              "count": 1,
+              "description": "A cotton with a kurse.",
+              "resource": "MysticCotton"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 1,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Fire Rune",
+              "count": 2,
+              "description": "Grind it up and use as it as a spice if you're brave enough!",
+              "resource": "FireRune"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 14705,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 14705,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 219,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 219,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Mystic cotton slippers",
+              "count": 1,
+              "description": "For when you need to be threatening and are also getting ready for bed.",
+              "resource": "MysticCottonSlippers"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Mystic cotton",
+              "count": 1,
+              "description": "A cotton with a kurse.",
+              "resource": "MysticCotton"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 1,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Fire Rune",
+              "count": 2,
+              "description": "Grind it up and use as it as a spice if you're brave enough!",
+              "resource": "FireRune"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 16320,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 16320,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 434,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 434,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Mystic cotton hat",
+              "count": 1,
+              "description": "Trying too hard to be threatening.",
+              "resource": "MysticCottonHat"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Mystic cotton",
+              "count": 2,
+              "description": "A cotton with a kurse.",
+              "resource": "MysticCotton"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 3,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Fire Rune",
+              "count": 4,
+              "description": "Grind it up and use as it as a spice if you're brave enough!",
+              "resource": "FireRune"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 20071,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 20071,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 795,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 795,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Black book",
+              "count": 1,
+              "description": "Contains the names of every foe ever slain by you.",
+              "resource": "MysticCottonShield"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Mystic cotton",
+              "count": 3,
+              "description": "A cotton with a kurse.",
+              "resource": "MysticCotton"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 4,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Fire Rune",
+              "count": 6,
+              "description": "Grind it up and use as it as a spice if you're brave enough!",
+              "resource": "FireRune"
+            },
+            {
+              "type": "Item",
+              "name": "Maple logs",
+              "count": 1,
+              "description": "What pretty pink logs!",
+              "resource": "MapleLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 22244,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 22244,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1465,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 1465,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Mystic cotton robe",
+              "count": 1,
+              "description": "Robes to complement that inner evil wizard.",
+              "resource": "MysticCottonRobe"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Mystic cotton",
+              "count": 5,
+              "description": "A cotton with a kurse.",
+              "resource": "MysticCotton"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 7,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Fire Rune",
+              "count": 10,
+              "description": "Grind it up and use as it as a spice if you're brave enough!",
+              "resource": "FireRune"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Noble Silk",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 40951,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 40951,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 530,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 530,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Noble silk gloves",
+              "count": 1,
+              "description": "So light, they make casting spells easier.",
+              "resource": "NobleSilkGloves"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "NobleSilk",
+              "count": 1,
+              "description": "It's *NobleSilk, as if you didn't know.",
+              "resource": "NobleSilk"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 1,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Water Rune",
+              "count": 2,
+              "description": "Slimy!",
+              "resource": "WaterRune"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 40951,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 40951,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 530,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 530,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Noble silk hood",
+              "count": 1,
+              "description": "Worn by the elite wizards of the Royal Guard.",
+              "resource": "NobleSilkHat"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "NobleSilk",
+              "count": 1,
+              "description": "It's *NobleSilk, as if you didn't know.",
+              "resource": "NobleSilk"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 1,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Water Rune",
+              "count": 2,
+              "description": "Slimy!",
+              "resource": "WaterRune"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 40951,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 40951,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 530,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 530,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Noble silk slippers",
+              "count": 1,
+              "description": "Silk slippers perfect for a slumber party at the Vizier-King's.",
+              "resource": "NobleSilkSlippers"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "NobleSilk",
+              "count": 1,
+              "description": "It's *NobleSilk, as if you didn't know.",
+              "resource": "NobleSilk"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 1,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Water Rune",
+              "count": 2,
+              "description": "Slimy!",
+              "resource": "WaterRune"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 55397,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 55397,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1944,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 1944,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Royal decree",
+              "count": 1,
+              "description": "The words are so dense, it makes an effective shield!",
+              "resource": "NobleSilkShield"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "NobleSilk",
+              "count": 3,
+              "description": "It's *NobleSilk, as if you didn't know.",
+              "resource": "NobleSilk"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 4,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Water Rune",
+              "count": 6,
+              "description": "Slimy!",
+              "resource": "WaterRune"
+            },
+            {
+              "type": "Item",
+              "name": "Yew logs",
+              "count": 1,
+              "description": "Sturdy logs perfect for crafting and engineering.",
+              "resource": "YewLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 61248,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 61248,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 3580,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 3580,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Noble silk robe",
+              "count": 1,
+              "description": "These robes signify to others of the elite status of the Royal Guard, famed for preventing all sorts of assassinations and coups.",
+              "resource": "NobleSilkRobe"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "NobleSilk",
+              "count": 5,
+              "description": "It's *NobleSilk, as if you didn't know.",
+              "resource": "NobleSilk"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 7,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Water Rune",
+              "count": 10,
+              "description": "Slimy!",
+              "resource": "WaterRune"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Zealot Silk",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 111608,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 111608,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1297,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 1297,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Zealot silk gloves",
+              "count": 1,
+              "description": "Keeps your hands cold.",
+              "resource": "ZealotSilkGloves"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Zealot silk",
+              "count": 1,
+              "description": "The finest silk made by humans.",
+              "resource": "ZealotSilk"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 1,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Cosmic Rune",
+              "count": 2,
+              "description": "Sparkles with a strange, otherworldly energy.",
+              "resource": "CosmicRune"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 111608,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 111608,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1297,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 1297,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Zealot silk hood",
+              "count": 1,
+              "description": "Show your zealotry without showing your face.",
+              "resource": "ZealotSilkHat"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Zealot silk",
+              "count": 1,
+              "description": "The finest silk made by humans.",
+              "resource": "ZealotSilk"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 1,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Cosmic Rune",
+              "count": 2,
+              "description": "Sparkles with a strange, otherworldly energy.",
+              "resource": "CosmicRune"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 111608,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 111608,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1297,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 1297,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Zealot silk boots",
+              "count": 1,
+              "description": "Silk boots, not a lot of protection but they're definitely comfortable.",
+              "resource": "ZealotSilkSlippers"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Zealot silk",
+              "count": 1,
+              "description": "The finest silk made by humans.",
+              "resource": "ZealotSilk"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 1,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Cosmic Rune",
+              "count": 2,
+              "description": "Sparkles with a strange, otherworldly energy.",
+              "resource": "CosmicRune"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 150495,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 150495,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 4800,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 4800,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Powernomicon",
+              "count": 1,
+              "description": "Zealots of The Empty King carry the Powernomicon to recite prayers and blessings for their slain foes.",
+              "resource": "ZealotSilkShield"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Zealot silk",
+              "count": 3,
+              "description": "The finest silk made by humans.",
+              "resource": "ZealotSilk"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 4,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Cosmic Rune",
+              "count": 6,
+              "description": "Sparkles with a strange, otherworldly energy.",
+              "resource": "CosmicRune"
+            },
+            {
+              "type": "Item",
+              "name": "Petrified spider logs",
+              "count": 1,
+              "description": "Even though these aren't technically wooden logs, they can be used as such.",
+              "resource": "PetrifiedSpiderLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 166245,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 166245,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 8835,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 8835,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Zealot silk robe",
+              "count": 1,
+              "description": "Robes worn by zealots of The Empty King.",
+              "resource": "ZealotSilkRobe"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Zealot silk",
+              "count": 5,
+              "description": "The finest silk made by humans.",
+              "resource": "ZealotSilk"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 7,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Cosmic Rune",
+              "count": 10,
+              "description": "Sparkles with a strange, otherworldly energy.",
+              "resource": "CosmicRune"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Misc",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 183634,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 183634,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Ancient ceremonial boots",
+              "count": 1,
+              "description": "Gives you the strength of a thousand wizards.",
+              "resource": "AncientCeremonialBoots"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1600,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 1600,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Zealot silk",
+              "count": 1,
+              "description": "The finest silk made by humans.",
+              "resource": "ZealotSilk"
+            },
+            {
+              "type": "Item",
+              "name": "Gilded dragon bones",
+              "count": 1,
+              "description": "Bones fit for the most regal of dogs.",
+              "resource": "GildedDragonBones"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 183634,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 183634,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Ancient ceremonial gloves",
+              "count": 1,
+              "description": "Somehow enchanted with the grace of the ancient wizard these were inspired by.",
+              "resource": "AncientCeremonialGloves"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1600,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 1600,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Zealot silk",
+              "count": 1,
+              "description": "The finest silk made by humans.",
+              "resource": "ZealotSilk"
+            },
+            {
+              "type": "Item",
+              "name": "Gilded dragon bones",
+              "count": 1,
+              "description": "Bones fit for the most regal of dogs.",
+              "resource": "GildedDragonBones"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 183634,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 183634,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Ancient ceremonial helm",
+              "count": 1,
+              "description": "A helmet made out of gold invoking the divine protection of The Empty King.",
+              "resource": "AncientCeremonialHelm"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1600,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 1600,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Zealot silk",
+              "count": 1,
+              "description": "The finest silk made by humans.",
+              "resource": "ZealotSilk"
+            },
+            {
+              "type": "Item",
+              "name": "Gilded dragon bones",
+              "count": 1,
+              "description": "Bones fit for the most regal of dogs.",
+              "resource": "GildedDragonBones"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 183634,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 183634,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Ancient ceremonial robe",
+              "count": 1,
+              "description": "Fine silk that smells like lavender even after a thousand years.",
+              "resource": "AncientCeremonialRobe"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1600,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 1600,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Zealot silk",
+              "count": 1,
+              "description": "The finest silk made by humans.",
+              "resource": "ZealotSilk"
+            },
+            {
+              "type": "Item",
+              "name": "Gilded dragon bones",
+              "count": 1,
+              "description": "Bones fit for the most regal of dogs.",
+              "resource": "GildedDragonBones"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "category": "Fabric"
+}

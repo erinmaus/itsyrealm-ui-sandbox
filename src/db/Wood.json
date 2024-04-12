@@ -1,0 +1,3228 @@
+{
+  "groups": [
+    {
+      "literal": "Common",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 0,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Arrow shaft",
+              "count": 15,
+              "description": "Baby arrow, yearning to take flight.",
+              "resource": "ArrowShaft"
+            },
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 6,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Common logs",
+              "count": 1,
+              "description": "Logs from trees commonly found across the Realm.",
+              "resource": "CommonLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 0,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 16,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Dinky wand",
+              "count": 1,
+              "description": "Probably more useful as firewood.",
+              "resource": "DinkyWand"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Common logs",
+              "count": 1,
+              "description": "Logs from trees commonly found across the Realm.",
+              "resource": "CommonLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 0,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 24,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Puny boomerang",
+              "count": 1,
+              "description": "Bringin' it around town, bringin' it around town...",
+              "resource": "PunyBoomerang"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Common logs",
+              "count": 1,
+              "description": "Logs from trees commonly found across the Realm.",
+              "resource": "CommonLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 0,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Firemaking",
+              "count": 0,
+              "description": "Lets you light fires, incense, bonfires, among other pyromaniacal activities.",
+              "resource": "Firemaking"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Firemaking",
+              "count": 1.2000000476837,
+              "description": "Lets you light fires, incense, bonfires, among other pyromaniacal activities.",
+              "resource": "Firemaking"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 12,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Faltering holy incense",
+              "count": 1,
+              "description": "Makes your heart swell with just a tiny bit of piety.",
+              "resource": "FalteringHolyIncense"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Weak gum",
+              "count": 1,
+              "description": "Despite the packaging, it's not food.",
+              "resource": "WeakGum"
+            },
+            {
+              "type": "Item",
+              "name": "Faltering frankincense",
+              "count": 5,
+              "description": "It's beginning to smell a lot like...",
+              "resource": "FalteringFrankincense"
+            },
+            {
+              "type": "Item",
+              "name": "Common logs",
+              "count": 1,
+              "description": "Logs from trees commonly found across the Realm.",
+              "resource": "CommonLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 0,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Skill",
+              "name": "Fishing",
+              "count": 0,
+              "description": "Lets you catch fish.",
+              "resource": "Fishing"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Puny fishing rod",
+              "count": 1,
+              "description": "A bit better than that useless wimpy fishing rod you can find in stores.",
+              "resource": "PunyFishingRod"
+            },
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 12,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Skill",
+              "name": "Fishing",
+              "count": 12,
+              "description": "Lets you catch fish.",
+              "resource": "Fishing"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Common logs",
+              "count": 1,
+              "description": "Logs from trees commonly found across the Realm.",
+              "resource": "CommonLogs"
+            },
+            {
+              "type": "Item",
+              "name": "Bronze fish hook",
+              "count": 1,
+              "description": "You can make a puny fishing rod with this fish hook.",
+              "resource": "BronzeFishHook"
+            },
+            {
+              "type": "Item",
+              "name": "Flax fishing line",
+              "count": 1,
+              "description": "Useful when making fishing rods.",
+              "resource": "FlaxFishingLine"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 82,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 30,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Dinky cane",
+              "count": 1,
+              "description": "Just what Grandpa needed.",
+              "resource": "DinkyCane"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Common logs",
+              "count": 2,
+              "description": "Logs from trees commonly found across the Realm.",
+              "resource": "CommonLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 173,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 32,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Puny bow",
+              "count": 1,
+              "description": "A weak bow; quick to fire, but low range.",
+              "resource": "PunyBow"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Common logs",
+              "count": 1,
+              "description": "Logs from trees commonly found across the Realm.",
+              "resource": "CommonLogs"
+            },
+            {
+              "type": "Item",
+              "name": "Bowstring",
+              "count": 1,
+              "description": "Twang!",
+              "resource": "Bowstring"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 384,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 105,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Dinky staff",
+              "count": 1,
+              "description": "Not suitable for epic boss battles.",
+              "resource": "DinkyStaff"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Common logs",
+              "count": 5,
+              "description": "Logs from trees commonly found across the Realm.",
+              "resource": "CommonLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 507,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 38,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Puny longbow",
+              "count": 1,
+              "description": "A weak longbow; slow to fire, but awesome range.",
+              "resource": "PunyLongbow"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Common logs",
+              "count": 1,
+              "description": "Logs from trees commonly found across the Realm.",
+              "resource": "CommonLogs"
+            },
+            {
+              "type": "Item",
+              "name": "Bowstring",
+              "count": 1,
+              "description": "Twang!",
+              "resource": "Bowstring"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 384,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Firemaking",
+              "count": 384,
+              "description": "Lets you light fires, incense, bonfires, among other pyromaniacal activities.",
+              "resource": "Firemaking"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Firemaking",
+              "count": 1.5,
+              "description": "Lets you light fires, incense, bonfires, among other pyromaniacal activities.",
+              "resource": "Firemaking"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 15,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Faint melodic incense",
+              "count": 1,
+              "description": "Crackles to a beat when lit.",
+              "resource": "FaintMelodicIncense"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Weak gum",
+              "count": 1,
+              "description": "Despite the packaging, it's not food.",
+              "resource": "WeakGum"
+            },
+            {
+              "type": "Item",
+              "name": "Faint eastern balsam",
+              "count": 5,
+              "description": "Smells not bad. Perhaps even smells good.",
+              "resource": "FaintEasternBalsam"
+            },
+            {
+              "type": "Item",
+              "name": "Common logs",
+              "count": 1,
+              "description": "Logs from trees commonly found across the Realm.",
+              "resource": "CommonLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1139,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Firemaking",
+              "count": 1139,
+              "description": "Lets you light fires, incense, bonfires, among other pyromaniacal activities.",
+              "resource": "Firemaking"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Firemaking",
+              "count": 2.5,
+              "description": "Lets you light fires, incense, bonfires, among other pyromaniacal activities.",
+              "resource": "Firemaking"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 25,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Dreadful incense",
+              "count": 1,
+              "description": "Smells like lavender. And evil.",
+              "resource": "DreadfulIncense"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Weak gum",
+              "count": 1,
+              "description": "Despite the packaging, it's not food.",
+              "resource": "WeakGum"
+            },
+            {
+              "type": "Item",
+              "name": "Eldritch myrrh",
+              "count": 1,
+              "description": "Looks like a small petrified blob of fear.",
+              "resource": "EldritchMyrrh"
+            },
+            {
+              "type": "Item",
+              "name": "Common logs",
+              "count": 1,
+              "description": "Logs from trees commonly found across the Realm.",
+              "resource": "CommonLogs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Shadow",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 0,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Arrow shaft",
+              "count": 15,
+              "description": "Baby arrow, yearning to take flight.",
+              "resource": "ArrowShaft"
+            },
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 6,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Shadow logs",
+              "count": 1,
+              "description": "These logs are useless...",
+              "resource": "ShadowLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 0,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 26,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Up-and-coming hero's boomerang",
+              "count": 1,
+              "description": "Don't need to worry about ammo with a boomerang! It always comes back!",
+              "resource": "ToyBoomerang"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Shadow logs",
+              "count": 1,
+              "description": "These logs are useless...",
+              "resource": "ShadowLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 0,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 26,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Up-and-coming hero's longsword",
+              "count": 1,
+              "description": "An unusually effective wooden longsword. Bit too dangerous for sparring practice...",
+              "resource": "ToyLongsword"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Shadow logs",
+              "count": 1,
+              "description": "These logs are useless...",
+              "resource": "ShadowLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 0,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 26,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Up-and-coming hero's wand",
+              "count": 1,
+              "description": "A wand with an innate spell of Yendorian origin; perfect for an upcoming hero!",
+              "resource": "ToyWand"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Shadow logs",
+              "count": 1,
+              "description": "These logs are useless...",
+              "resource": "ShadowLogs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Ancient splinters",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1139,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 384,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 250,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Magic",
+              "count": 150,
+              "description": "Increases your accuracy, lets you use spells, and enables you to use magic items.",
+              "resource": "Magic"
+            },
+            {
+              "type": "Item",
+              "name": "Ancient driftwood mask",
+              "count": 1,
+              "description": "It whispers an ancient language...",
+              "resource": "AncientDriftwoodMask"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Ancient splinters",
+              "count": 10,
+              "description": "Giant splitters cut from the Ancient Driftwood. They're hot to the touch.",
+              "resource": "IsabelleIsland_FoggyForest_AncientSplinters"
+            },
+            {
+              "type": "Item",
+              "name": "Kursed glue",
+              "count": 1,
+              "description": "Not suitable for K through 5.",
+              "resource": "IsabelleIsland_FoggyForest_KursedGlue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Willow",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 957,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 50,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Bendy boomerang",
+              "count": 1,
+              "description": "A small breeze will snap it.",
+              "resource": "BendyBoomerang"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Willow logs",
+              "count": 1,
+              "description": "Logs found from a common willow.",
+              "resource": "WillowLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 1139,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Arrow shaft",
+              "count": 150,
+              "description": "Baby arrow, yearning to take flight.",
+              "resource": "ArrowShaft"
+            },
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 14,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Willow logs",
+              "count": 1,
+              "description": "Logs found from a common willow.",
+              "resource": "WillowLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1139,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 34,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Feeble wand",
+              "count": 1,
+              "description": "Too damp for firewood.",
+              "resource": "FeebleWand"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Willow logs",
+              "count": 1,
+              "description": "Logs found from a common willow.",
+              "resource": "WillowLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1340,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 76,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Feeble cane",
+              "count": 1,
+              "description": "Not suited for a hunter.",
+              "resource": "FeebleCane"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Willow logs",
+              "count": 2,
+              "description": "Logs found from a common willow.",
+              "resource": "WillowLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 1562,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 68,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Bendy bow",
+              "count": 1,
+              "description": "Extra bendy, but short range.",
+              "resource": "BendyBow"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Willow logs",
+              "count": 1,
+              "description": "Logs found from a common willow.",
+              "resource": "WillowLogs"
+            },
+            {
+              "type": "Item",
+              "name": "Bowstring",
+              "count": 1,
+              "description": "Twang!",
+              "resource": "Bowstring"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 2079,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 250,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Feeble staff",
+              "count": 1,
+              "description": "Good for the Itsy Commons Fair, not much else.",
+              "resource": "FeebleStaff"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Willow logs",
+              "count": 5,
+              "description": "Logs found from a common willow.",
+              "resource": "WillowLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 1139,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Skill",
+              "name": "Fishing",
+              "count": 384,
+              "description": "Lets you catch fish.",
+              "resource": "Fishing"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Bendy fishing rod",
+              "count": 1,
+              "description": "Has a nice bend when reeling in fish.",
+              "resource": "BendyFishingRod"
+            },
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 25,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Skill",
+              "name": "Fishing",
+              "count": 15,
+              "description": "Lets you catch fish.",
+              "resource": "Fishing"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Willow logs",
+              "count": 1,
+              "description": "Logs found from a common willow.",
+              "resource": "WillowLogs"
+            },
+            {
+              "type": "Item",
+              "name": "Iron fish hook",
+              "count": 1,
+              "description": "You can make a bendy fishing rod with this fish hook.",
+              "resource": "IronFishHook"
+            },
+            {
+              "type": "Item",
+              "name": "Flax fishing line",
+              "count": 1,
+              "description": "Useful when making fishing rods.",
+              "resource": "FlaxFishingLine"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 2379,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 92,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Bendy longbow",
+              "count": 1,
+              "description": "Good range, but low arrow-power.",
+              "resource": "BendyLongbow"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Willow logs",
+              "count": 1,
+              "description": "Logs found from a common willow.",
+              "resource": "WillowLogs"
+            },
+            {
+              "type": "Item",
+              "name": "Bowstring",
+              "count": 1,
+              "description": "Twang!",
+              "resource": "Bowstring"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Oak",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 3923,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 136,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Petty boomerang",
+              "count": 1,
+              "description": "Sometimes I wish it wouldn't come back.",
+              "resource": "PettyBoomerang"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Oak logs",
+              "count": 1,
+              "description": "Some solid oak logs, good for weapon making and other things.",
+              "resource": "OakLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 4415,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Arrow shaft",
+              "count": 300,
+              "description": "Baby arrow, yearning to take flight.",
+              "resource": "ArrowShaft"
+            },
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 33,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Oak logs",
+              "count": 1,
+              "description": "Some solid oak logs, good for weapon making and other things.",
+              "resource": "OakLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 4415,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 81,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Moldy wand",
+              "count": 1,
+              "description": "The mold on this wand can't be healthy...",
+              "resource": "MoldyWand"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Oak logs",
+              "count": 1,
+              "description": "Some solid oak logs, good for weapon making and other things.",
+              "resource": "OakLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 4958,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 180,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Moldy cane",
+              "count": 1,
+              "description": "An old, moldy cane, not suitable for even your grandpa's evil twin.",
+              "resource": "MoldyCane"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Oak logs",
+              "count": 2,
+              "description": "Some solid oak logs, good for weapon making and other things.",
+              "resource": "OakLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 5558,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 162,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Petty bow",
+              "count": 1,
+              "description": "Pretty petty bow.",
+              "resource": "PettyBow"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Oak logs",
+              "count": 1,
+              "description": "Some solid oak logs, good for weapon making and other things.",
+              "resource": "OakLogs"
+            },
+            {
+              "type": "Item",
+              "name": "Bowstring",
+              "count": 1,
+              "description": "Twang!",
+              "resource": "Bowstring"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 6951,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 605,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Moldy staff",
+              "count": 1,
+              "description": "Might make you sneeze while casting a spell.",
+              "resource": "MoldyStaff"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Oak logs",
+              "count": 5,
+              "description": "Some solid oak logs, good for weapon making and other things.",
+              "resource": "OakLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 7758,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 218,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Petty longbow",
+              "count": 1,
+              "description": "Better than a rock!",
+              "resource": "PettyLongbow"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Oak logs",
+              "count": 1,
+              "description": "Some solid oak logs, good for weapon making and other things.",
+              "resource": "OakLogs"
+            },
+            {
+              "type": "Item",
+              "name": "Bowstring",
+              "count": 1,
+              "description": "Twang!",
+              "resource": "Bowstring"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 4415,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Skill",
+              "name": "Fishing",
+              "count": 2379,
+              "description": "Lets you catch fish.",
+              "resource": "Fishing"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Petty fishing rod",
+              "count": 1,
+              "description": "Better than using your hands to fish!",
+              "resource": "PettyFishingRod"
+            },
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 68,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Skill",
+              "name": "Fishing",
+              "count": 41,
+              "description": "Lets you catch fish.",
+              "resource": "Fishing"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Oak logs",
+              "count": 1,
+              "description": "Some solid oak logs, good for weapon making and other things.",
+              "resource": "OakLogs"
+            },
+            {
+              "type": "Item",
+              "name": "BlackenedIron fish hook",
+              "count": 1,
+              "description": "You can make a petty fishing rod with this fish hook.",
+              "resource": "BlackenedIronFishHook"
+            },
+            {
+              "type": "Item",
+              "name": "Flax fishing line",
+              "count": 1,
+              "description": "Useful when making fishing rods.",
+              "resource": "FlaxFishingLine"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Maple",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 11919,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 324,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Shaky boomerang",
+              "count": 1,
+              "description": "Shakes when it spins.",
+              "resource": "ShakyBoomerang"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Maple logs",
+              "count": 1,
+              "description": "What pretty pink logs!",
+              "resource": "MapleLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 13243,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Arrow shaft",
+              "count": 450,
+              "description": "Baby arrow, yearning to take flight.",
+              "resource": "ArrowShaft"
+            },
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 89,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Maple logs",
+              "count": 1,
+              "description": "What pretty pink logs!",
+              "resource": "MapleLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 13243,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 219,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Springy wand",
+              "count": 1,
+              "description": "Makes spells pop!",
+              "resource": "SpringyWand"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Maple logs",
+              "count": 1,
+              "description": "What pretty pink logs!",
+              "resource": "MapleLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 14705,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 434,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Springy cane",
+              "count": 1,
+              "description": "This wood is not suited for a cane!",
+              "resource": "SpringyCane"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Maple logs",
+              "count": 2,
+              "description": "What pretty pink logs!",
+              "resource": "MapleLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 16320,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 438,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Shaky bow",
+              "count": 1,
+              "description": "Hard to aim.",
+              "resource": "ShakyBow"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Maple logs",
+              "count": 1,
+              "description": "What pretty pink logs!",
+              "resource": "MapleLogs"
+            },
+            {
+              "type": "Item",
+              "name": "Bowstring",
+              "count": 1,
+              "description": "Twang!",
+              "resource": "Bowstring"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 20071,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1465,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Springy staff",
+              "count": 1,
+              "description": "Can use it as a vaulting pole, too.",
+              "resource": "SpringyStaff"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Maple logs",
+              "count": 5,
+              "description": "What pretty pink logs!",
+              "resource": "MapleLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 22244,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 530,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Shaky longbow",
+              "count": 1,
+              "description": "Takes some time to become accustomed to the shakiness.",
+              "resource": "ShakyLongbow"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Maple logs",
+              "count": 1,
+              "description": "What pretty pink logs!",
+              "resource": "MapleLogs"
+            },
+            {
+              "type": "Item",
+              "name": "Bowstring",
+              "count": 1,
+              "description": "Twang!",
+              "resource": "Bowstring"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 13243,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Skill",
+              "name": "Fishing",
+              "count": 7758,
+              "description": "Lets you catch fish.",
+              "resource": "Fishing"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Shaky fishing rod",
+              "count": 1,
+              "description": "Suprisingly attracts fish a bit better.",
+              "resource": "ShakyFishingRod"
+            },
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 162,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Skill",
+              "name": "Fishing",
+              "count": 99,
+              "description": "Lets you catch fish.",
+              "resource": "Fishing"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Maple logs",
+              "count": 1,
+              "description": "What pretty pink logs!",
+              "resource": "MapleLogs"
+            },
+            {
+              "type": "Item",
+              "name": "Mithril fish hook",
+              "count": 1,
+              "description": "You can make a shaky fishing rod with this fish hook.",
+              "resource": "MithrilFishHook"
+            },
+            {
+              "type": "Item",
+              "name": "Flax fishing line",
+              "count": 1,
+              "description": "Useful when making fishing rods.",
+              "resource": "FlaxFishingLine"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Yew",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 33448,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 788,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Spindly boomerang",
+              "count": 1,
+              "description": "Cuts the opponent with its spindles.",
+              "resource": "SpindlyBoomerang"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Yew logs",
+              "count": 1,
+              "description": "Sturdy logs perfect for crafting and engineering.",
+              "resource": "YewLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 37014,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Arrow shaft",
+              "count": 600,
+              "description": "Baby arrow, yearning to take flight.",
+              "resource": "ArrowShaft"
+            },
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 217,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Yew logs",
+              "count": 1,
+              "description": "Sturdy logs perfect for crafting and engineering.",
+              "resource": "YewLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 37014,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 530,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Tense wand",
+              "count": 1,
+              "description": "Gives an extra zap.",
+              "resource": "TenseWand"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Yew logs",
+              "count": 1,
+              "description": "Sturdy logs perfect for crafting and engineering.",
+              "resource": "YewLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 40951,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1170,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Tense cane",
+              "count": 1,
+              "description": "A refined cane for a refined individual.",
+              "resource": "TenseCane"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Yew logs",
+              "count": 2,
+              "description": "Sturdy logs perfect for crafting and engineering.",
+              "resource": "YewLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 45298,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 1060,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Spindly bow",
+              "count": 1,
+              "description": "Made from yew, perfect for a bow.",
+              "resource": "SpindlyBow"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Yew logs",
+              "count": 1,
+              "description": "Sturdy logs perfect for crafting and engineering.",
+              "resource": "YewLogs"
+            },
+            {
+              "type": "Item",
+              "name": "Bowstring",
+              "count": 1,
+              "description": "Twang!",
+              "resource": "Bowstring"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 55397,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 3580,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Tense staff",
+              "count": 1,
+              "description": "A mystical staff.",
+              "resource": "TenseStaff"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Yew logs",
+              "count": 5,
+              "description": "Sturdy logs perfect for crafting and engineering.",
+              "resource": "YewLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 61248,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 1296,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Spindly longbow",
+              "count": 1,
+              "description": "A fierce longbow with a long reach.",
+              "resource": "SpindlyLongbow"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Yew logs",
+              "count": 1,
+              "description": "Sturdy logs perfect for crafting and engineering.",
+              "resource": "YewLogs"
+            },
+            {
+              "type": "Item",
+              "name": "Bowstring",
+              "count": 1,
+              "description": "Twang!",
+              "resource": "Bowstring"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 37014,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Skill",
+              "name": "Fishing",
+              "count": 22244,
+              "description": "Lets you catch fish.",
+              "resource": "Fishing"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Spindly fishing rod",
+              "count": 1,
+              "description": "A strong fishing rod that beats the will to live out of a fish.",
+              "resource": "SpindlyFishingRod"
+            },
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 394,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Skill",
+              "name": "Fishing",
+              "count": 240,
+              "description": "Lets you catch fish.",
+              "resource": "Fishing"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Yew logs",
+              "count": 1,
+              "description": "Sturdy logs perfect for crafting and engineering.",
+              "resource": "YewLogs"
+            },
+            {
+              "type": "Item",
+              "name": "Adamant fish hook",
+              "count": 1,
+              "description": "You can make a spindly fishing rod with this fish hook.",
+              "resource": "AdamantFishHook"
+            },
+            {
+              "type": "Item",
+              "name": "Flax fishing line",
+              "count": 1,
+              "description": "Useful when making fishing rods.",
+              "resource": "FlaxFishingLine"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Petrified spider",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 91409,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 1928,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Terrifying boomerang",
+              "count": 1,
+              "description": "Thorny!",
+              "resource": "TerrifyingBoomerang"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Petrified spider logs",
+              "count": 1,
+              "description": "Even though these aren't technically wooden logs, they can be used as such.",
+              "resource": "PetrifiedSpiderLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 101009,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Arrow shaft",
+              "count": 750,
+              "description": "Baby arrow, yearning to take flight.",
+              "resource": "ArrowShaft"
+            },
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 532,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Petrified spider logs",
+              "count": 1,
+              "description": "Even though these aren't technically wooden logs, they can be used as such.",
+              "resource": "PetrifiedSpiderLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 101009,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1297,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Scary wand",
+              "count": 1,
+              "description": "Intimdating.",
+              "resource": "ScaryWand"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Petrified spider logs",
+              "count": 1,
+              "description": "Even though these aren't technically wooden logs, they can be used as such.",
+              "resource": "PetrifiedSpiderLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 111608,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 2864,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Scary cane",
+              "count": 1,
+              "description": "The handle is sticky!",
+              "resource": "ScaryCane"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Petrified spider logs",
+              "count": 2,
+              "description": "Even though these aren't technically wooden logs, they can be used as such.",
+              "resource": "PetrifiedSpiderLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 123310,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 2594,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Terrifying bow",
+              "count": 1,
+              "description": "The bow is as dangerous to shoot as it is to be shot by.",
+              "resource": "TerrifyingBow"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Petrified spider logs",
+              "count": 1,
+              "description": "Even though these aren't technically wooden logs, they can be used as such.",
+              "resource": "PetrifiedSpiderLogs"
+            },
+            {
+              "type": "Item",
+              "name": "Spiderstring",
+              "count": 1,
+              "description": "Can be used as bowstring when making terrifying weapons.",
+              "resource": "Spiderstring"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 150495,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 8835,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Scary staff",
+              "count": 1,
+              "description": "A dangerous staff powered by the remains of an ancient spider.",
+              "resource": "ScaryStaff"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Petrified spider logs",
+              "count": 5,
+              "description": "Even though these aren't technically wooden logs, they can be used as such.",
+              "resource": "PetrifiedSpiderLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 166245,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 3200,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Terrifying longbow",
+              "count": 1,
+              "description": "A disgusting longbow made from spider parts.",
+              "resource": "TerrifyingLongbow"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Petrified spider logs",
+              "count": 1,
+              "description": "Even though these aren't technically wooden logs, they can be used as such.",
+              "resource": "PetrifiedSpiderLogs"
+            },
+            {
+              "type": "Item",
+              "name": "Spiderstring",
+              "count": 1,
+              "description": "Can be used as bowstring when making terrifying weapons.",
+              "resource": "Spiderstring"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 101009,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Skill",
+              "name": "Fishing",
+              "count": 61248,
+              "description": "Lets you catch fish.",
+              "resource": "Fishing"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Terrifying fishing rod",
+              "count": 1,
+              "description": "Used a petrified spider's leg to fish..? Heck, why not?!",
+              "resource": "TerrifyingFishingRod"
+            },
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 964,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Skill",
+              "name": "Fishing",
+              "count": 587,
+              "description": "Lets you catch fish.",
+              "resource": "Fishing"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Petrified spider logs",
+              "count": 1,
+              "description": "Even though these aren't technically wooden logs, they can be used as such.",
+              "resource": "PetrifiedSpiderLogs"
+            },
+            {
+              "type": "Item",
+              "name": "Itsy fish hook",
+              "count": 1,
+              "description": "You can make a terrifying fishing rod with this fish hook.",
+              "resource": "ItsyFishHook"
+            },
+            {
+              "type": "Item",
+              "name": "Flax fishing line",
+              "count": 1,
+              "description": "Useful when making fishing rods.",
+              "resource": "FlaxFishingLine"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Azathothian",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 5345302,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Arrow shaft",
+              "count": 1350,
+              "description": "Baby arrow, yearning to take flight.",
+              "resource": "ArrowShaft"
+            },
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 19200,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Azathothian logs",
+              "count": 1,
+              "description": "I hope I don't get sick from these!",
+              "resource": "AzathothianLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 5345302,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 46810,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Fungal wand",
+              "count": 1,
+              "description": "Don't poke your eye out! You may grow a tentacle in its place.",
+              "resource": "FungalWand"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Azathothian logs",
+              "count": 1,
+              "description": "I hope I don't get sick from these!",
+              "resource": "AzathothianLogs"
+            },
+            {
+              "type": "Item",
+              "name": "Black talon",
+              "count": 1,
+              "description": "A talon from a fierce Eldritch abomination, the Ill-Colored Hawk.",
+              "resource": "BlackTalon"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 5901778,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 103366,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Fungal cane",
+              "count": 1,
+              "description": "Suited for the finest of hunters.",
+              "resource": "FungalCane"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Azathothian logs",
+              "count": 2,
+              "description": "I hope I don't get sick from these!",
+              "resource": "AzathothianLogs"
+            },
+            {
+              "type": "Item",
+              "name": "Black talon",
+              "count": 2,
+              "description": "A talon from a fierce Eldritch abomination, the Ill-Colored Hawk.",
+              "resource": "BlackTalon"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 7943491,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 327340,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Fungal staff",
+              "count": 1,
+              "description": "A staff made for a champion of the most primal horrors.",
+              "resource": "FungalStaff"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Azathothian logs",
+              "count": 5,
+              "description": "I hope I don't get sick from these!",
+              "resource": "AzathothianLogs"
+            },
+            {
+              "type": "Item",
+              "name": "Black talon",
+              "count": 5,
+              "description": "A talon from a fierce Eldritch abomination, the Ill-Colored Hawk.",
+              "resource": "BlackTalon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Misc",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 384,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Arrow shaft",
+              "count": 75,
+              "description": "Baby arrow, yearning to take flight.",
+              "resource": "ArrowShaft"
+            },
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 8,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Rotten logs",
+              "count": 1,
+              "description": "These logs are rotten and damp; they won't light.",
+              "resource": "RottenLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 2379,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Arrow shaft",
+              "count": 225,
+              "description": "Baby arrow, yearning to take flight.",
+              "resource": "ArrowShaft"
+            },
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 23,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Coconut logs",
+              "count": 1,
+              "description": "Probably useful... But for what?",
+              "resource": "CoconutLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 7758,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Arrow shaft",
+              "count": 375,
+              "description": "Baby arrow, yearning to take flight.",
+              "resource": "ArrowShaft"
+            },
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 54,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Fossilized oak logs",
+              "count": 1,
+              "description": "Logs from a tree only found at the Ruins of Rh'ysilk.",
+              "resource": "FossilizedOakLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 22244,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            },
+            {
+              "type": "Item",
+              "name": "Knife",
+              "count": 1,
+              "description": "Stabby!",
+              "resource": "Knife"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Arrow shaft",
+              "count": 525,
+              "description": "Baby arrow, yearning to take flight.",
+              "resource": "ArrowShaft"
+            },
+            {
+              "type": "Skill",
+              "name": "Engineering",
+              "count": 132,
+              "description": "Create advanced weaponry and tech.",
+              "resource": "Engineering"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Fox fir logs",
+              "count": 1,
+              "description": "Heavy logs from a fox fir.",
+              "resource": "FoxFirLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1474824,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Faith",
+              "count": 166245,
+              "description": "Allows you to call upon the gods and makes you more resistant to reality warping attacks.",
+              "resource": "Faith"
+            },
+            {
+              "type": "Skill",
+              "name": "Necromancy",
+              "count": 101009,
+              "description": "Channel the divinity of The Empty King to bend the undead to your will.",
+              "resource": "Necromancy"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Creepy doll",
+              "count": 1,
+              "description": "The doll... It whispers terrible things in the dark...",
+              "resource": "CreepyDoll"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 10971,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Skill",
+              "name": "Faith",
+              "count": 10971,
+              "description": "Allows you to call upon the gods and makes you more resistant to reality warping attacks.",
+              "resource": "Faith"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Unholy sacrificial knife",
+              "count": 1,
+              "description": "A knife used in a horrific ritual by The Empty King to banish the gods from the Realm.",
+              "resource": "UnholySacrificialKnife"
+            },
+            {
+              "type": "Item",
+              "name": "Rotten logs",
+              "count": 1,
+              "description": "These logs are rotten and damp; they won't light.",
+              "resource": "RottenLogs"
+            },
+            {
+              "type": "Item",
+              "name": "Eldritch myrrh",
+              "count": 1,
+              "description": "Looks like a small petrified blob of fear.",
+              "resource": "EldritchMyrrh"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "category": "Wood"
+}

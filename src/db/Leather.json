@@ -1,0 +1,1577 @@
+{
+  "groups": [
+    {
+      "literal": "Mooish",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 0,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 14,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Mooish leather boots",
+              "count": 1,
+              "description": "Moo?",
+              "resource": "MooishLeatherBoots"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Mooish leather",
+              "count": 1,
+              "description": "Who doesn't love cow print?",
+              "resource": "MooishLeatherHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 1,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 0,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 14,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Mooish leather gloves",
+              "count": 1,
+              "description": "Moo.",
+              "resource": "MooishLeatherGloves"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Mooish leather",
+              "count": 1,
+              "description": "Who doesn't love cow print?",
+              "resource": "MooishLeatherHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 1,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 82,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 32,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Mooish leather coif",
+              "count": 1,
+              "description": "Moo!",
+              "resource": "MooishLeatherCoif"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Mooish leather",
+              "count": 2,
+              "description": "Who doesn't love cow print?",
+              "resource": "MooishLeatherHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 3,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 273,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 57,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Mooish buckler",
+              "count": 1,
+              "description": "Passive aggressive moo.",
+              "resource": "MooishLeatherBuckler"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Mooish leather",
+              "count": 3,
+              "description": "Who doesn't love cow print?",
+              "resource": "MooishLeatherHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 4,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Common logs",
+              "count": 1,
+              "description": "Logs from trees commonly found across the Realm.",
+              "resource": "CommonLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 384,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 95,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Mooish leather body",
+              "count": 1,
+              "description": "Big moo.",
+              "resource": "MooishLeatherBody"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Mooish leather",
+              "count": 5,
+              "description": "Who doesn't love cow print?",
+              "resource": "MooishLeatherHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 7,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Chocoroach chitin",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1340,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 34,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Chocoroach chitin boots",
+              "count": 1,
+              "description": "Sounds like stepping on chocoroaches! *shiver*",
+              "resource": "BugGutsBoots"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Chocoroach bug guts",
+              "count": 1,
+              "description": "The leg! It's still twitching! Blegh!",
+              "resource": "BugGutsHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 1,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1340,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 34,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Chocoroach chitin gloves",
+              "count": 1,
+              "description": "Made 100% out of organic bug slime.",
+              "resource": "BugGutsGloves"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Chocoroach bug guts",
+              "count": 1,
+              "description": "The leg! It's still twitching! Blegh!",
+              "resource": "BugGutsHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 1,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1562,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 76,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Chocoroach chitin coif",
+              "count": 1,
+              "description": "Lets you see your opponents a dozen ways to Tuesday.",
+              "resource": "BugGutsCoif"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Chocoroach bug guts",
+              "count": 2,
+              "description": "The leg! It's still twitching! Blegh!",
+              "resource": "BugGutsHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 3,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 2079,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 138,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Chocoroach chitin buckler",
+              "count": 1,
+              "description": "At least the leg doesn't twitch anymore...",
+              "resource": "BugGutsBuckler"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Chocoroach bug guts",
+              "count": 3,
+              "description": "The leg! It's still twitching! Blegh!",
+              "resource": "BugGutsHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 4,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Willow logs",
+              "count": 1,
+              "description": "Logs found from a common willow.",
+              "resource": "WillowLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 2379,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 250,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Chocoroach chitin body",
+              "count": 1,
+              "description": "Comes with wings, but won't let you fly.",
+              "resource": "BugGutsBody"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Chocoroach bug guts",
+              "count": 5,
+              "description": "The leg! It's still twitching! Blegh!",
+              "resource": "BugGutsHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 7,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Robin feather",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 4958,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 81,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Robin feather boots",
+              "count": 1,
+              "description": "Gives you a little pep in your step.",
+              "resource": "RobinFeatherBoots"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "RobinFeatherHide",
+              "count": 1,
+              "description": "It's *RobinFeatherHide, as if you didn't know.",
+              "resource": "RobinFeatherHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 1,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 4958,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 81,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Robin feather gloves",
+              "count": 1,
+              "description": "Light and breathable!",
+              "resource": "RobinFeatherGloves"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "RobinFeatherHide",
+              "count": 1,
+              "description": "It's *RobinFeatherHide, as if you didn't know.",
+              "resource": "RobinFeatherHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 1,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 5558,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 180,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Robin feather coif",
+              "count": 1,
+              "description": "Poor birdy.",
+              "resource": "RobinFeatherCoif"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "RobinFeatherHide",
+              "count": 2,
+              "description": "It's *RobinFeatherHide, as if you didn't know.",
+              "resource": "RobinFeatherHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 3,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 6951,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 327,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Robin feather buckler",
+              "count": 1,
+              "description": "Not sure how feathers can protected you...",
+              "resource": "RobinFeatherBuckler"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "RobinFeatherHide",
+              "count": 3,
+              "description": "It's *RobinFeatherHide, as if you didn't know.",
+              "resource": "RobinFeatherHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 4,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Oak logs",
+              "count": 1,
+              "description": "Some solid oak logs, good for weapon making and other things.",
+              "resource": "OakLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 7758,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 605,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Robin feather body",
+              "count": 1,
+              "description": "Wings are for angels, not mortals, according to Bastiel's followers.",
+              "resource": "RobinFeatherBody"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "RobinFeatherHide",
+              "count": 5,
+              "description": "It's *RobinFeatherHide, as if you didn't know.",
+              "resource": "RobinFeatherHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 7,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "White wolf hide",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 14705,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 219,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "White wolf hide boots",
+              "count": 1,
+              "description": "Keeps your toes toasty.",
+              "resource": "WhiteWolfHideBoots"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "WhiteWolfHideHide",
+              "count": 1,
+              "description": "It's *WhiteWolfHideHide, as if you didn't know.",
+              "resource": "WhiteWolfHideHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 1,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 14705,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 219,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "White wolf hide gloves",
+              "count": 1,
+              "description": "Keeps your fingers toasty.",
+              "resource": "WhiteWolfHideGloves"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "WhiteWolfHideHide",
+              "count": 1,
+              "description": "It's *WhiteWolfHideHide, as if you didn't know.",
+              "resource": "WhiteWolfHideHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 1,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 16320,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 434,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "White wolf hide coif",
+              "count": 1,
+              "description": "Unlike the rest of the armor, this doesn't keep your head toasty.",
+              "resource": "WhiteWolfHideCoif"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "WhiteWolfHideHide",
+              "count": 2,
+              "description": "It's *WhiteWolfHideHide, as if you didn't know.",
+              "resource": "WhiteWolfHideHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 3,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 20071,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 795,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "White wolf hide buckler",
+              "count": 1,
+              "description": "A decent bucker offering good protection, especially against crushing blows.",
+              "resource": "WhiteWolfHideBuckler"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "WhiteWolfHideHide",
+              "count": 3,
+              "description": "It's *WhiteWolfHideHide, as if you didn't know.",
+              "resource": "WhiteWolfHideHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 4,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Maple logs",
+              "count": 1,
+              "description": "What pretty pink logs!",
+              "resource": "MapleLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 22244,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1465,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "White wolf hide body",
+              "count": 1,
+              "description": "Might be too toasty for the most of the Realm...",
+              "resource": "WhiteWolfHideBody"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "WhiteWolfHideHide",
+              "count": 5,
+              "description": "It's *WhiteWolfHideHide, as if you didn't know.",
+              "resource": "WhiteWolfHideHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 7,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Ancient karadon scale",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 40951,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 530,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Ancient karadon scale boots",
+              "count": 1,
+              "description": "Slippery when wet. Or dry.",
+              "resource": "AncientKaradonBoots"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Ancient karadon skin",
+              "count": 1,
+              "description": "The skin and scales of an ancient karadon. Can make some cool robes with this!",
+              "resource": "AncientKaradonHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 1,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 40951,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 530,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Ancient karadon scale gloves",
+              "count": 1,
+              "description": "Slimy!",
+              "resource": "AncientKaradonGloves"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Ancient karadon skin",
+              "count": 1,
+              "description": "The skin and scales of an ancient karadon. Can make some cool robes with this!",
+              "resource": "AncientKaradonHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 1,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 45298,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1170,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Ancient karadon scale coif",
+              "count": 1,
+              "description": "Smells fishy.",
+              "resource": "AncientKaradonCoif"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Ancient karadon skin",
+              "count": 2,
+              "description": "The skin and scales of an ancient karadon. Can make some cool robes with this!",
+              "resource": "AncientKaradonHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 3,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 55397,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1944,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Ancient karadon scale buckler",
+              "count": 1,
+              "description": "Weapons, spells, and projectiles just slide off this buckler. Because it's made of slimy fish scales. Get it?",
+              "resource": "AncientKaradonBuckler"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Ancient karadon skin",
+              "count": 3,
+              "description": "The skin and scales of an ancient karadon. Can make some cool robes with this!",
+              "resource": "AncientKaradonHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 4,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Yew logs",
+              "count": 1,
+              "description": "Sturdy logs perfect for crafting and engineering.",
+              "resource": "YewLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 61248,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 3580,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Ancient karadon scale body",
+              "count": 1,
+              "description": "Not just wizards can wear robes!",
+              "resource": "AncientKaradonBody"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Ancient karadon skin",
+              "count": 5,
+              "description": "The skin and scales of an ancient karadon. Can make some cool robes with this!",
+              "resource": "AncientKaradonHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 7,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Green dragonhide",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 111608,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1297,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Green dragonhide boots",
+              "count": 1,
+              "description": "The finest dragon leather boots this side of the Realm.",
+              "resource": "GreenDragonhideBoots"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "GreenDragonhideHide",
+              "count": 1,
+              "description": "It's *GreenDragonhideHide, as if you didn't know.",
+              "resource": "GreenDragonhideHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 1,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 111608,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1297,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Green dragonhide gloves",
+              "count": 1,
+              "description": "Those are some pretty tough gloves!",
+              "resource": "GreenDragonhideGloves"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "GreenDragonhideHide",
+              "count": 1,
+              "description": "It's *GreenDragonhideHide, as if you didn't know.",
+              "resource": "GreenDragonhideHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 1,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 123310,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 2864,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Green dragonhide coif",
+              "count": 1,
+              "description": "Aerodynamic.",
+              "resource": "GreenDragonhideCoif"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "GreenDragonhideHide",
+              "count": 2,
+              "description": "It's *GreenDragonhideHide, as if you didn't know.",
+              "resource": "GreenDragonhideHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 3,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 150495,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 4800,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Green dragonhide buckler",
+              "count": 1,
+              "description": "Some say those skilled enough can bounce spells off this buckler toward the foe... But don't believe everything you hear!",
+              "resource": "GreenDragonhideBuckler"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "GreenDragonhideHide",
+              "count": 3,
+              "description": "It's *GreenDragonhideHide, as if you didn't know.",
+              "resource": "GreenDragonhideHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 4,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            },
+            {
+              "type": "Item",
+              "name": "Petrified spider logs",
+              "count": 1,
+              "description": "Even though these aren't technically wooden logs, they can be used as such.",
+              "resource": "PetrifiedSpiderLogs"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Item",
+              "name": "Needle",
+              "count": 1,
+              "description": "Pokey!",
+              "resource": "Needle"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 166245,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 8835,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            },
+            {
+              "type": "Item",
+              "name": "Green dragonhide body",
+              "count": 1,
+              "description": "Provides the protection of dragon leather, granting amazing defenses against magic.",
+              "resource": "GreenDragonhideBody"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "GreenDragonhideHide",
+              "count": 5,
+              "description": "It's *GreenDragonhideHide, as if you didn't know.",
+              "resource": "GreenDragonhideHide"
+            },
+            {
+              "type": "Item",
+              "name": "Plain thread",
+              "count": 7,
+              "description": "Not particularly strong, but it's good enough for most things.",
+              "resource": "PlainThread"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "category": "Leather"
+}

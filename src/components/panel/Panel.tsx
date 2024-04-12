@@ -26,6 +26,8 @@ export const PanelStyle = styled.div<TransientProps<PanelProps>>`
 
   color: ${(props) => props.theme.fontColor};
 
+  overflow: hidden;
+
   &:before {
     position: absolute;
 

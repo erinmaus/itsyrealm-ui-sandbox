@@ -1,0 +1,742 @@
+{
+  "groups": [
+    {
+      "literal": "Copper",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 0,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Copper bar",
+              "count": 1,
+              "description": "Almost completely useless!",
+              "resource": "CopperBar"
+            },
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 12,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Copper ore",
+              "count": 1,
+              "description": "Needs smelting.",
+              "resource": "CopperOre"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 0,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Copper bar",
+              "count": 1,
+              "description": "Almost completely useless!",
+              "resource": "CopperBar"
+            },
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 12,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Copper flake",
+              "count": 5,
+              "description": "Very poor source of vitamins, but rich in nutrients.",
+              "resource": "CopperFlake"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Tin",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 0,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Tin bar",
+              "count": 1,
+              "description": "Almost completely useless!",
+              "resource": "TinBar"
+            },
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 12,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Tin ore",
+              "count": 1,
+              "description": "Needs smelting.",
+              "resource": "TinOre"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 0,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Tin bar",
+              "count": 1,
+              "description": "Almost completely useless!",
+              "resource": "TinBar"
+            },
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 12,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Tin flake",
+              "count": 5,
+              "description": "Metal dandruff from an undead elemental, ew!",
+              "resource": "TinFlake"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Weird alloy",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 0,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Weird alloy bar",
+              "count": 1,
+              "description": "Known as the weird alloy because it theoretically should offer extreme protection against all kinds of attacks, but in practice is pretty weak.",
+              "resource": "WeirdAlloyBar"
+            },
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 24,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Copper ore",
+              "count": 1,
+              "description": "Needs smelting.",
+              "resource": "CopperOre"
+            },
+            {
+              "type": "Item",
+              "name": "Azatite shard",
+              "count": 1,
+              "description": "A strange metalic crystal from another dimension. It's cold to the touch.",
+              "resource": "AzatiteShard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Bronze",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 0,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Bronze bar",
+              "count": 1,
+              "description": "Useful for making bronze weapons and armor.",
+              "resource": "BronzeBar"
+            },
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 24,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Copper ore",
+              "count": 1,
+              "description": "Needs smelting.",
+              "resource": "CopperOre"
+            },
+            {
+              "type": "Item",
+              "name": "Tin ore",
+              "count": 1,
+              "description": "Needs smelting.",
+              "resource": "TinOre"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 0,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Bronze bar",
+              "count": 1,
+              "description": "Useful for making bronze weapons and armor.",
+              "resource": "BronzeBar"
+            },
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 24,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Copper flake",
+              "count": 5,
+              "description": "Very poor source of vitamins, but rich in nutrients.",
+              "resource": "CopperFlake"
+            },
+            {
+              "type": "Item",
+              "name": "Tin flake",
+              "count": 5,
+              "description": "Metal dandruff from an undead elemental, ew!",
+              "resource": "TinFlake"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 1139,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 25,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            },
+            {
+              "type": "Item",
+              "name": "Kursed bronze krieg helm",
+              "count": 1,
+              "description": "Whosoever wears this brings the Kurse upon the land.",
+              "resource": "BronzeKriegHelm"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Crawling copper ore",
+              "count": 1,
+              "description": "The copper makes your skin crawl when you touch it...",
+              "resource": "IsabelleIsland_CrawlingCopperOre"
+            },
+            {
+              "type": "Item",
+              "name": "Tense tin ore",
+              "count": 1,
+              "description": "Just the touch of the ore on your skin makes you tense up...",
+              "resource": "IsabelleIsland_TenseTinOre"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Iron",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 1139,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Iron bar",
+              "count": 1,
+              "description": "Useful for making iron weapons and armor.",
+              "resource": "IronBar"
+            },
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 25,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Iron ore",
+              "count": 1,
+              "description": "Needs smelting.",
+              "resource": "IronOre"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 1139,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Iron bar",
+              "count": 1,
+              "description": "Useful for making iron weapons and armor.",
+              "resource": "IronBar"
+            },
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 25,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Iron flake",
+              "count": 5,
+              "description": "Not to be used as a supplement.",
+              "resource": "IronFlake"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Sand",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 1139,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 1139,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Bucket of molten glass",
+              "count": 1,
+              "description": "How in the world is that bucket holding that?",
+              "resource": "BucketOfMoltenGlass"
+            },
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 25,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            },
+            {
+              "type": "Skill",
+              "name": "Crafting",
+              "count": 25,
+              "description": "Allows you to make armor, weapons, and other items from wood, cloth, and hides, among other things.",
+              "resource": "Crafting"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Bucket of sand",
+              "count": 1,
+              "description": "A bucket full of sand; it's coarse and it gets everywhere!",
+              "resource": "BucketOfSand"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Blackened iron",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 4415,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Blackened iron bar",
+              "count": 1,
+              "description": "It's Blackened iron bar, as if you didn't know.",
+              "resource": "BlackenedIronBar"
+            },
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 136,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Iron ore",
+              "count": 1,
+              "description": "Needs smelting.",
+              "resource": "IronOre"
+            },
+            {
+              "type": "Item",
+              "name": "Coal",
+              "count": 1,
+              "description": "Makes smelting more efficient with certain ores like iron.",
+              "resource": "CoalOre"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Adamant",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 37014,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Adamant bar",
+              "count": 1,
+              "description": "Useful for making adamant weapons and armor.",
+              "resource": "AdamantBar"
+            },
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 788,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Adamant ore",
+              "count": 1,
+              "description": "Needs smelting.",
+              "resource": "AdamantOre"
+            },
+            {
+              "type": "Item",
+              "name": "Caesium salt",
+              "count": 1,
+              "description": "Well, it was nice knowing ya...",
+              "resource": "CaesiumOre"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Uranium",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 61248,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Uranium bar",
+              "count": 1,
+              "description": "That looks dangerous to hold...",
+              "resource": "UraniumBar"
+            },
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 587,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Uranium ore",
+              "count": 1,
+              "description": "Needs smelting.",
+              "resource": "UraniumOre"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Itsy",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 101009,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Itsy bar",
+              "count": 1,
+              "description": "Useful for making itsy weapons and armor.",
+              "resource": "ItsyBar"
+            },
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 1928,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Itsy ore",
+              "count": 1,
+              "description": "Needs smelting.",
+              "resource": "ItsyOre"
+            },
+            {
+              "type": "Item",
+              "name": "Uranium ore",
+              "count": 1,
+              "description": "Needs smelting.",
+              "resource": "UraniumOre"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "literal": "Gold",
+      "actions": [
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 166245,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Item",
+              "name": "Gold bar",
+              "count": 1,
+              "description": "Useful for making jewelry and other trinkets.",
+              "resource": "GoldBar"
+            },
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 1449,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Gold ore",
+              "count": 1,
+              "description": "Needs smelting.",
+              "resource": "GoldOre"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 166245,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            }
+          ],
+          "outputs": [
+            {
+              "type": "Skill",
+              "name": "Smithing",
+              "count": 1600,
+              "description": "Allows you to smelt and smith metal items.",
+              "resource": "Smithing"
+            },
+            {
+              "type": "Item",
+              "name": "Gilded dragon bones",
+              "count": 1,
+              "description": "Bones fit for the most regal of dogs.",
+              "resource": "GildedDragonBones"
+            }
+          ],
+          "inputs": [
+            {
+              "type": "Item",
+              "name": "Gold ore",
+              "count": 1,
+              "description": "Needs smelting.",
+              "resource": "GoldOre"
+            },
+            {
+              "type": "Item",
+              "name": "Dragon bones",
+              "count": 1,
+              "description": "Still warm to the touch.",
+              "resource": "DragonBones"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "category": "Metal"
+}

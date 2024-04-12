@@ -1,5 +1,6 @@
 import { ThemeProvider } from "styled-components";
 import CraftingWindow from "./interfaces/CraftingWindow/CraftingWindow";
+import Smith from "./db/Smith.json";
 
 const DEFAULT_THEME = {
   background: "#7f684a",
@@ -15,7 +16,7 @@ const DEFAULT_THEME = {
 function App() {
   return (
     <ThemeProvider theme={DEFAULT_THEME}>
-      <CraftingWindow />
+      <CraftingWindow list={Smith} />
     </ThemeProvider>
   );
 }
