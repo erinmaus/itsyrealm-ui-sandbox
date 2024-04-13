@@ -1,8 +1,6 @@
-import styled, { keyframes } from "styled-components";
-import TextInputImage from "./images/TextInput.png";
-import TextInputMaskImage from "./images/TextInput.mask.png";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { TransientProps, toTransientProps } from "../../util";
+import styled, { keyframes } from "styled-components";
+import { toTransientProps, TransientProps } from "../../util";
 
 export interface TextInputProps {
   x?: string;
@@ -10,6 +8,8 @@ export interface TextInputProps {
   width?: string;
   height?: string;
   value?: string;
+  panelImage?: string;
+  panelColor?: string;
   children?: React.ReactNode;
 }
 
@@ -53,7 +53,13 @@ const BaseTextInput = styled.div<TransientProps<TextInputProps>>`
   position: ${(props) =>
     props.$x === undefined && props.$y === undefined ? "relative" : "absolute"};
 
-  border-image: url(${TextInputImage}) 12 12 fill / 12px 12px repeat;
+  border-image: url(${(props) =>
+      props.theme.getImage(
+        props.$panelImage ?? "Widgets/BaseTextInput.png",
+        props.theme[props.$panelColor ?? "lightBackgroundColor"] ||
+          props.theme.lightBackgroundColor,
+      )})
+    12 12 fill / 12px 12px repeat;
 
   padding: 4px;
   min-height: 32px;
@@ -70,23 +76,6 @@ const BaseTextInput = styled.div<TransientProps<TextInputProps>>`
   transition: filter 0.25s ease-in-out;
 
   overflow: hidden;
-
-  &:before {
-    position: absolute;
-
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-
-    content: "";
-
-    background-color: ${(props) => props.theme.textInputColor};
-    -webkit-mask-box-image: url(${TextInputMaskImage}) 12 12 fill / 12px 12px
-      repeat;
-
-    mix-blend-mode: multiply;
-  }
 
   & .scroll {
     display: block;

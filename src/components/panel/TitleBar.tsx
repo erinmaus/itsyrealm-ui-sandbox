@@ -1,8 +1,6 @@
 import styled from "styled-components";
-import { PanelProps, PanelStyle } from "./Panel";
-import TitleBarImage from "./images/TitleBar.png";
-import TitleBarMaskImage from "./images/TitleBar.mask.png";
 import { toTransientProps } from "../../util";
+import { PanelProps, PanelStyle } from "./Panel";
 
 export const TitleBarStyle = styled(PanelStyle)`
   position: absolute;
@@ -14,16 +12,16 @@ export const TitleBarStyle = styled(PanelStyle)`
   display: flex;
   justify-content: space-between;
 
-  border-image: url(${TitleBarImage}) 12 12 fill / 12px 12px repeat;
+  border-image: url(${(props) =>
+      props.theme.getImage(
+        props.$panelImage ?? "Widgets/BaseTitleBar.png",
+        props.theme[props.$panelColor ?? "darkBackgroundColor"] ||
+          props.theme.backgroundColor,
+      )})
+    12 12 fill / 12px 12px repeat;
 
   padding: 8px;
   height: 48px;
-
-  &:before {
-    background-color: ${(props) => props.theme.titleBar};
-    -webkit-mask-box-image: url(${TitleBarMaskImage}) 12 12 fill / 12px 12px
-      repeat;
-  }
 `;
 
 const TitleBar = (props: PanelProps) => (

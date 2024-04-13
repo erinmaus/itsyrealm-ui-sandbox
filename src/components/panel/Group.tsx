@@ -1,14 +1,15 @@
 import styled from "styled-components";
 import { toTransientProps } from "../../util";
-import GroupImage from "./images/Group.png";
 import { PanelProps, PanelStyle } from "./Panel";
 
 export const GroupStyle = styled(PanelStyle)`
-  border-image: url(${GroupImage}) 24 24 fill / 24px 24px repeat;
-
-  &:before {
-    -webkit-mask-box-image: none;
-  }
+  border-image: url(${(props) =>
+      props.theme.getImage(
+        props.$panelImage ?? "Widgets/BaseGroup.png",
+        props.theme[props.$panelColor ?? "mediumBackgroundColor"] ||
+          props.theme.backgroundColor,
+      )})
+    24 24 fill / 24px 24px repeat;
 `;
 
 const Group = (props: PanelProps) => (

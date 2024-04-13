@@ -74,7 +74,7 @@ const CraftingWindow = ({ list }: CraftingWindowProps) => {
         >
           Craft an item
         </Label>
-        <Button width="48px" height="48px" buttonColor="closeButton">
+        <Button width="48px" height="48px" buttonColor="dangerousActionColor">
           <Label>X</Label>
         </Button>
       </TitleBar>
@@ -126,7 +126,11 @@ const CraftingWindow = ({ list }: CraftingWindowProps) => {
           </Label>
           <InputRow>
             <TextInput value="0" width="calc(100% - 128px - 24px)" />
-            <Button width="128px" height="48px" buttonColor="primaryButton">
+            <Button
+              width="128px"
+              height="48px"
+              buttonColor="primaryActionColor"
+            >
               <Label>Make it!</Label>
             </Button>
           </InputRow>

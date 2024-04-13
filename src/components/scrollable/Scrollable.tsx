@@ -45,7 +45,7 @@ const Scrollable = ({ children, Container, ...props }: ScrollableProps) => {
       const { clientHeight: trackHeight } = track;
 
       setScrollThumbButtonHeight(
-        Math.max((containerHeight / containerScrollHeight) * trackHeight, 32),
+        Math.max((containerHeight / containerScrollHeight) * trackHeight, 48),
       );
     },
     [setScrollThumbButtonHeight],

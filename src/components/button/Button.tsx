@@ -1,7 +1,5 @@
 import styled from "styled-components";
 import { toTransientProps, TransientProps } from "../../util";
-import ButtonMaskImage from "./images/Button.mask.png";
-import ButtonImage from "./images/Button.png";
 
 export interface ButtonProps {
   disabled?: boolean;
@@ -10,12 +8,20 @@ export interface ButtonProps {
   width?: string;
   height?: string;
   buttonColor?: string;
+  buttonImage?: string;
   color?: string;
   as?: string;
   children?: React.ReactNode;
 }
 
-export const ButtonStyle = styled.button<TransientProps<ButtonProps>>`
+export const ButtonStyle = styled.button.attrs<TransientProps<ButtonProps>>(
+  (props) => ({
+    style: {
+      left: props.$x ?? "auto",
+      top: props.$y ?? "auto",
+    },
+  }),
+)`
   border: none;
   outline: none;
   background: none;
@@ -26,12 +32,15 @@ export const ButtonStyle = styled.button<TransientProps<ButtonProps>>`
   justify-content: center;
   align-items: center;
 
-  border-image: url(${ButtonImage}) 12 12 fill / 12px 12px repeat;
+  border-image: url(${(props) =>
+      props.theme.getImage(
+        props.$buttonImage ?? "Widgets/BaseButton.png",
+        props.theme[props.$buttonColor ?? "secondaryActionColor"] ||
+          props.theme.secondaryActionColor,
+      )})
+    12 24 fill / 12px 24px repeat;
 
   padding: 4px;
-
-  left: ${(props) => props.$x ?? "auto"};
-  top: ${(props) => props.$y ?? "auto"};
 
   min-width: ${(props) => props.$width ?? "auto"};
   min-height: ${(props) => props.$height ?? "auto"};
@@ -39,28 +48,6 @@ export const ButtonStyle = styled.button<TransientProps<ButtonProps>>`
   transition: 0.25s ease-in-out filter;
 
   color: ${(props) => props.$color ?? props.theme.fontColor};
-
-  &:before {
-    position: absolute;
-
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-
-    content: "";
-
-    background-color: ${(props) =>
-      props.$buttonColor
-        ? props.theme[props.$buttonColor] ?? props.$buttonColor
-        : props.theme.button};
-    -webkit-mask-box-image: url(${ButtonMaskImage}) 12 12 fill / 12px 12px
-      repeat;
-
-    z-index: 0;
-
-    mix-blend-mode: multiply;
-  }
 
   filter: ${(props) => (props.$disabled ? "grayscale(1)" : "")};
 

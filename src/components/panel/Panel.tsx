@@ -1,20 +1,26 @@
 import styled from "styled-components";
-import PanelImage from "./images/Panel.png";
-import PanelMaskImage from "./images/Panel.mask.png";
-import { TransientProps, toTransientProps } from "../../util";
+import { toTransientProps, TransientProps } from "../../util";
 
 export interface PanelProps {
   x?: string;
   y?: string;
   width?: string;
   height?: string;
+  panelImage?: string;
+  panelColor?: string;
   children?: React.ReactNode;
 }
 
 export const PanelStyle = styled.div<TransientProps<PanelProps>>`
   position: relative;
 
-  border-image: url(${PanelImage}) 12 12 fill / 12px 12px repeat;
+  border-image: url(${(props) =>
+      props.theme.getImage(
+        props.$panelImage ?? "Widgets/BasePanel.png",
+        props.theme[props.$panelColor ?? "backgroundColor"] ||
+          props.theme.backgroundColor,
+      )})
+    24 24 fill / 24px 24px repeat;
 
   padding: 12px;
 
@@ -27,24 +33,6 @@ export const PanelStyle = styled.div<TransientProps<PanelProps>>`
   color: ${(props) => props.theme.fontColor};
 
   overflow: hidden;
-
-  &:before {
-    position: absolute;
-
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-
-    content: "";
-
-    background-color: ${(props) => props.theme.background};
-    -webkit-mask-box-image: url(${PanelMaskImage}) 12 12 fill / 12px 12px repeat;
-
-    z-index: 0;
-
-    mix-blend-mode: multiply;
-  }
 `;
 
 const Panel = (props: PanelProps) => (
