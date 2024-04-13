@@ -30,7 +30,7 @@ function App() {
 
   const theme = useMemo(
     () => ({ ...DEFAULT_THEME, images: store, getImage }),
-    [store],
+    [getImage, store],
   );
 
   return (
