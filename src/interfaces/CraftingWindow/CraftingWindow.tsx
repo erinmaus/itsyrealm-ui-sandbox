@@ -1,3 +1,4 @@
+import { Fragment } from "react/jsx-runtime";
 import styled from "styled-components";
 import Button from "../../components/button/Button";
 import TextInput from "../../components/input/TextInput";
@@ -85,8 +86,9 @@ const CraftingWindow = ({ list }: CraftingWindowProps) => {
               {list.groups
                 .filter((group) => group.actions.length > 0)
                 .map((group) => (
-                  <>
+                  <Fragment key={group.literal}>
                     <Title
+                      key={group.literal}
                       as="h3"
                       $family={LabelFontFamily.Serif}
                       $size="1.5rem"
@@ -94,8 +96,12 @@ const CraftingWindow = ({ list }: CraftingWindowProps) => {
                     >
                       {group.literal}
                     </Title>
-                    {group.actions.map((action) => (
-                      <Button width="48px" height="48px">
+                    {group.actions.map((action, index) => (
+                      <Button
+                        key={`${group.literal}-${index}`}
+                        width="48px"
+                        height="48px"
+                      >
                         <ItemIcon
                           item={
                             action.outputs?.find(
@@ -110,7 +116,7 @@ const CraftingWindow = ({ list }: CraftingWindowProps) => {
                         />
                       </Button>
                     ))}
-                  </>
+                  </Fragment>
                 ))}
             </Grid>
           </Scrollable>

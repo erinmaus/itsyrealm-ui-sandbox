@@ -221,8 +221,6 @@ const TextInput = ({ value, ...otherProps }: TextInputProps) => {
         index === (inputRef.current.selectionEnd ?? 0) - 1) ||
         (direction && index === (inputRef.current.selectionStart ?? 0) - 1));
 
-    console.log({ selectionStart, selectionEnd, index });
-
     const textSpan = (
       <span
         className={`${selected ? "selected" : ""} ${hasCaret ? "caret" : ""}`}
