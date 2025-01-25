@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { BrowserRouter, Route, Routes } from "react-router";
+import { HashRouter, Route, Routes } from "react-router";
 import { ThemeProvider } from "styled-components";
 import Smith from "./db/Smith.json";
 import { useRecoloredImage } from "./images";
@@ -37,12 +37,12 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<CraftingWindow list={Smith} />} />
           <Route path="/bace" element={<BACE />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </ThemeProvider>
   );
 }
