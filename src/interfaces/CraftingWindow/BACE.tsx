@@ -122,7 +122,7 @@ const Categories: Record<string, string[]> = {
 };
 
 const showConfetti = async (x: number, y: number) => {
-  const result = await fetch("/Animations/Confetti.png");
+  const result = await fetch("Animations/Confetti.png");
   const url = URL.createObjectURL(await result.blob());
 
   const element = document.createElement("img");
