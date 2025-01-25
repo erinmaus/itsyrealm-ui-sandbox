@@ -168,7 +168,7 @@ const BACE = () => {
 
   useEffect(() => {
     randomize(currentCategory, ALL);
-  }, [currentCategory]);
+  }, [currentCategory, randomize]);
 
   return (
     <Window
