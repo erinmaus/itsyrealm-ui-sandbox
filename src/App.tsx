@@ -1,7 +1,9 @@
 import { useMemo } from "react";
+import { BrowserRouter, Route, Routes } from "react-router";
 import { ThemeProvider } from "styled-components";
 import Smith from "./db/Smith.json";
 import { useRecoloredImage } from "./images";
+import BACE from "./interfaces/CraftingWindow/BACE";
 import CraftingWindow from "./interfaces/CraftingWindow/CraftingWindow";
 
 const DEFAULT_THEME = {
@@ -35,7 +37,12 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <CraftingWindow list={Smith} />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<CraftingWindow list={Smith} />} />
+          <Route path="/bace" element={<BACE />} />
+        </Routes>
+      </BrowserRouter>
     </ThemeProvider>
   );
 }

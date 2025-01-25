@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { toTransientProps, TransientProps } from "../../util";
 
 export interface ButtonProps {
+  onClick?: any;
   disabled?: boolean;
   x?: string;
   y?: string;
@@ -39,8 +40,6 @@ export const ButtonStyle = styled.button.attrs<TransientProps<ButtonProps>>(
           props.theme.secondaryActionColor,
       )})
     12 24 fill / 12px 24px repeat;
-
-  padding: 4px;
 
   min-width: ${(props) => props.$width ?? "auto"};
   min-height: ${(props) => props.$height ?? "auto"};

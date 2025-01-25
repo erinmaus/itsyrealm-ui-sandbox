@@ -28,7 +28,7 @@ export const toTransientProps = <
   ExcludedProps = DefaultExcludedTransientProps,
 >(
   props: OtherProps,
-  excludedProps: string[] = ["children", "as", "className", "ref"],
+  excludedProps: string[] = ["children", "as", "className", "ref", "onClick"],
 ) => {
   return Object.keys(props).reduce(
     (
