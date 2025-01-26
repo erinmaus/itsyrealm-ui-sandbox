@@ -55,7 +55,8 @@ const List = styled.ul`
   margin: 8px;
 
   li {
-    list-style: disc inside;
+    list-style: disc outside;
+    margin-left: 1rem;
   }
 `;
 
@@ -241,7 +242,7 @@ const BACE = () => {
           <Scrollable Container={ListWrapper}>
             <List>
               {options.map((option) => (
-                <Label key={option} as="li" lineHeight="1.5rem">
+                <Label key={option} as="li" lineHeight="1.5rem" weight={400}>
                   {option}
                 </Label>
               ))}

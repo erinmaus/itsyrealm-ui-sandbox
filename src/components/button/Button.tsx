@@ -43,12 +43,14 @@ export const ButtonStyle = styled.button.attrs<TransientProps<ButtonProps>>(
 
   min-width: ${(props) => props.$width ?? "auto"};
   min-height: ${(props) => props.$height ?? "auto"};
+  width: ${(props) => props.$width ?? "auto"};
+  height: ${(props) => props.$height ?? "auto"};
 
   transition: 0.25s ease-in-out filter;
 
   color: ${(props) => props.$color ?? props.theme.fontColor};
 
-  filter: ${(props) => (props.$disabled ? "grayscale(1)" : "")};
+  filter: brightness(1) ${(props) => (props.$disabled ? "grayscale(1)" : "")};
 
   &:hover {
     filter: brightness(1.25)
