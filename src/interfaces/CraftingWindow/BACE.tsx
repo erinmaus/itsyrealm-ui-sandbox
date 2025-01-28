@@ -1,6 +1,18 @@
-import { useCallback, useEffect, useState } from "react";
-import styled from "styled-components";
+import { decode, encode } from "js-base64";
+import {
+  ChangeEvent,
+  MouseEvent,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
+import { useSearchParams } from "react-router";
+import styled, { useTheme } from "styled-components";
+import { Categories } from "../../bace";
 import Button from "../../components/button/Button";
+import TextArea, { TextAreaStyle } from "../../components/input/TextArea";
 import Label, { LabelFontFamily } from "../../components/label/Label";
 import Group, { GroupStyle } from "../../components/panel/Group";
 import TitleBar from "../../components/panel/TitleBar";
@@ -11,8 +23,14 @@ const WindowContent = styled.div`
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  justify-items: flex-start;
+  justify-content: flex-start;
   height: 100%;
+
+  ${TextAreaStyle} {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    flex: 1;
+  }
 `;
 
 const Content = styled.div`
@@ -41,6 +59,7 @@ const ListContainer = styled.div`
   overflow: scroll;
   min-height: 0;
   margin-top: 16px;
+  margin-bottom: 16px;
   position: relative;
   flex: 1;
 `;
@@ -60,67 +79,38 @@ const List = styled.ul`
   }
 `;
 
-const Categories: Record<string, string[]> = {
-  Body: [
-    "bike",
-    "stroll",
-    "dog sports",
-    "hiking",
-    "meal prep",
-    "walk dogs",
-    "eat healthy",
-    "good things journal",
-    "journal emotions",
-  ],
+const ButtonWrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
 
-  Achievement: [
-    "work on 10% time",
-    "clean office",
-    "laundry",
-    "c.s. catch-up",
-    "math catch-up",
-    "career development",
-    "plan L&L",
-    "document something",
-    "tech debt",
-  ],
+const ShareLink = styled.div`
+  display: flex;
+  white-space: nowrap;
+`;
 
-  Community: [
-    "call friend",
-    "call Grandma",
-    "spend 1-1 time with Jesse",
-    "attend club/meet-up",
-    "attend PUUC",
-    "participate DSA",
-    "contribute to open source",
-    "date night with Jesse",
-    "volunteer",
-  ],
+const Popup = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+`;
 
-  Enjoyment: [
-    "write poetry",
-    "write prose",
-    "write something technical",
-    "play online game",
-    "play single player game",
-    "model something 3D",
-    "animate something 3D",
-    "sketch something",
-    "illustrate something",
-    "practice art",
-    "read something technical",
-    "read fiction",
-    "plan travel",
-    "plan staycation/weekend excursion",
-    "plan video game",
-    "travel somewhere",
-    "ItsyRealm",
-    "dine out",
-    "movie",
-    "TV show",
-    "go to theme park",
-  ],
-};
+const PopupContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  height: calc(100% - 64px);
+
+  margin-top: 64px;
+`;
+
+const Footer = styled.div`
+  margin-top: 8px;
+`;
 
 const showConfetti = async (x: number, y: number) => {
   const result = await fetch("Animations/Confetti.png");
@@ -145,13 +135,139 @@ const showConfetti = async (x: number, y: number) => {
 
 const ALL = 1 / 0;
 
+const DEFAULT_ACTIVITIES: Categories = {
+  Body: ["walk", "journal"],
+  Achievements: ["work", "school"],
+  Community: ["friends", "family"],
+  Enjoyment: ["watch tv", "play video games", "read book"],
+};
+
+const loadItems = (defaultItems?: Categories): Categories => {
+  const baceItemsStorage = localStorage.getItem("baceItems");
+  if (!baceItemsStorage && defaultItems) {
+    return defaultItems;
+  }
+
+  const baceItems: Categories = JSON.parse(baceItemsStorage ?? "{}");
+
+  return {
+    Body: baceItems.Body ?? defaultItems?.Body ?? DEFAULT_ACTIVITIES.Body,
+    Achievements:
+      baceItems.Achievements ??
+      defaultItems?.Achievements ??
+      DEFAULT_ACTIVITIES.Achievements,
+    Community:
+      baceItems.Community ??
+      defaultItems?.Community ??
+      DEFAULT_ACTIVITIES.Community,
+    Enjoyment:
+      baceItems.Enjoyment ??
+      defaultItems?.Enjoyment ??
+      DEFAULT_ACTIVITIES.Enjoyment,
+  };
+};
+
+const saveItems = (items: Categories) => {
+  localStorage.setItem("baceItems", JSON.stringify(items));
+};
+
+const BACE_ORDER = ["Body", "Achievements", "Community", "Enjoyment"];
+
+interface CategoryButtonProps {
+  isActive: boolean;
+  category: string;
+  onSelectCategory: (category: string) => void;
+}
+
+const CategoryButton = ({
+  isActive,
+  category,
+  onSelectCategory,
+}: CategoryButtonProps) => {
+  const handleClick = useCallback(() => {
+    onSelectCategory(category);
+  }, [category, onSelectCategory]);
+
+  return (
+    <Button
+      key={category}
+      buttonColor={isActive ? "dangerousActionColor" : "secondaryActionColor"}
+      onClick={handleClick}
+    >
+      <Label>{category}</Label>
+    </Button>
+  );
+};
+
 const BACE = () => {
+  const theme = useTheme();
+  const [searchParams, setSearchParams] = useSearchParams();
+  const [wasShared, setWasShared] = useState(false);
+  const [oldCategoryData, setOldCategoryData] = useState<string | null>(null);
+  const [didLoad, setDidLoad] = useState(false);
+  const [categories, setCategories] = useState(DEFAULT_ACTIVITIES);
   const [currentCategory, setCurrentCategory] = useState<string>("Body");
   const [options, setCurrentOptions] = useState<string[]>([]);
+  const [categoryInput, setCategoryInput] = useState<string>("");
+  const [isEditing, setIsEditing] = useState(false);
+  const [isShowingPopup, setIsShowingPopup] = useState(false);
+  const [didCopy, setDidCopy] = useState(false);
+  const shareLinkRef = useRef<HTMLDivElement>(null);
+  const [didSave, setDidSave] = useState(true);
+
+  useEffect(() => {
+    if (
+      searchParams.has("categories") &&
+      (!wasShared || oldCategoryData !== searchParams.get("categories"))
+    ) {
+      setCategories(
+        JSON.parse(decode(searchParams.get("categories") || "") ?? "{}"),
+      );
+      setCurrentOptions(categories[currentCategory] ?? []);
+      setWasShared(true);
+      setOldCategoryData(searchParams.get("categories"));
+    } else if ((!searchParams.has("categories") && wasShared) || !didLoad) {
+      const savedCategories = loadItems(DEFAULT_ACTIVITIES);
+      setCategories(savedCategories);
+      setCurrentOptions(savedCategories[currentCategory]);
+      setWasShared(false);
+      setOldCategoryData(null);
+    }
+  }, [
+    didLoad,
+    wasShared,
+    categories,
+    currentCategory,
+    searchParams,
+    oldCategoryData,
+    setOldCategoryData,
+    setCategories,
+    setWasShared,
+    setSearchParams,
+  ]);
+
+  useEffect(() => {
+    setDidLoad(true);
+  }, [setDidLoad]);
+
+  useEffect(() => {
+    if (!didSave) {
+      const beforeUnload = (event: BeforeUnloadEvent) => {
+        event.preventDefault();
+      };
+
+      window.addEventListener("beforeunload", beforeUnload);
+
+      return () => {
+        window.removeEventListener("beforeunload", beforeUnload);
+      };
+    }
+  }, [didSave]);
 
   const randomize = useCallback(
     (category: string, count: number) => {
-      const possibleOptions = [...Categories[category]];
+      console.log("RANDOMIZE", { category, count });
+      const possibleOptions = [...categories[category]];
       let result = [];
       while (count > 0 && possibleOptions.length > 0) {
         --count;
@@ -164,93 +280,322 @@ const BACE = () => {
       }
       setCurrentOptions(result);
     },
-    [setCurrentOptions],
+    [categories, setCurrentOptions],
+  );
+
+  const beginEditing = useCallback(() => {
+    setCategoryInput(categories[currentCategory].join("\n"));
+    setIsEditing(true);
+    setDidSave(false);
+  }, [categories, currentCategory, setCategoryInput, setIsEditing]);
+
+  const handleEdit = useCallback(
+    (event: ChangeEvent<HTMLTextAreaElement>) => {
+      setCategoryInput(event.target.value);
+    },
+    [setCategoryInput],
+  );
+
+  const finishEditing = useCallback(
+    (event: MouseEvent) => {
+      const { [currentCategory]: editedCategory, ...otherCategories } =
+        categories;
+
+      const result = {
+        ...otherCategories,
+        [currentCategory]: categoryInput
+          .split("\n")
+          .map((item) => item.trim())
+          .filter((item) => item),
+      };
+
+      setCategories(result);
+      setCurrentOptions(result[currentCategory]);
+
+      showConfetti(event.pageX, event.pageY);
+
+      setIsEditing(false);
+    },
+    [
+      categories,
+      categoryInput,
+      currentCategory,
+      setCategories,
+      setIsEditing,
+      setCurrentOptions,
+    ],
+  );
+
+  const share = useCallback(
+    (event: MouseEvent) => {
+      setDidCopy(false);
+      setIsShowingPopup(true);
+      showConfetti(event.pageX, event.pageY);
+    },
+    [setIsShowingPopup, setDidCopy],
+  );
+
+  const selectShareLink = useCallback(() => {
+    if (shareLinkRef.current) {
+      const selection = document.getSelection();
+      if (selection) {
+        const range = document.createRange();
+        range.selectNodeContents(shareLinkRef.current);
+        selection.removeAllRanges();
+        selection.addRange(range);
+
+        document.execCommand("copy");
+
+        setDidCopy(true);
+      }
+    }
+  }, [setDidCopy]);
+
+  const handleClickShareLink = useCallback(
+    (event: MouseEvent<HTMLDivElement>) => {
+      selectShareLink();
+      showConfetti(event.pageX, event.pageY);
+    },
+    [selectShareLink],
+  );
+
+  const handlePressShareLink = useCallback(() => {
+    selectShareLink();
+  }, [selectShareLink]);
+
+  const save = useCallback(
+    (event: MouseEvent) => {
+      saveItems(categories);
+      setDidSave(true);
+      showConfetti(event.pageX, event.pageY);
+    },
+    [categories],
+  );
+
+  const closePopup = useCallback(() => {
+    setIsShowingPopup(false);
+  }, []);
+
+  const handleSelectCategory = useCallback(
+    (category: string) => {
+      setCurrentCategory(category);
+    },
+    [setCurrentCategory],
+  );
+
+  const showAll = useCallback(() => {
+    setCurrentOptions(categories[currentCategory]);
+  }, [categories, currentCategory, setCurrentOptions]);
+
+  const showRandom = useCallback(
+    (event: MouseEvent) => {
+      randomize(currentCategory, ALL);
+      showConfetti(event.pageX, event.pageY);
+    },
+    [randomize, currentCategory],
+  );
+
+  const showRandom3 = useCallback(
+    (event: MouseEvent) => {
+      randomize(currentCategory, 3);
+      showConfetti(event.pageX, event.pageY);
+    },
+    [randomize, currentCategory],
   );
 
   useEffect(() => {
-    randomize(currentCategory, ALL);
-  }, [currentCategory, randomize]);
+    setCurrentOptions(categories[currentCategory]);
+  }, [categories, currentCategory, setCurrentOptions]);
+
+  const shareURL = useMemo(() => {
+    const { protocol, host, pathname, hash } = window.location;
+
+    const categoriesQueryData = encode(JSON.stringify(categories));
+
+    return `${protocol}//${host}${pathname}${hash}?categories=${categoriesQueryData}`;
+  }, [categories]);
 
   return (
-    <Window
-      width="min(calc(100vw - 32px), 320px)"
-      height="min(calc(100vh - 32px), 640px)"
-    >
-      <TitleBar>
-        <Label
-          as="h1"
-          family={LabelFontFamily.Serif}
-          size="2rem"
-          lineHeight="48px"
-          weight="600"
-        >
-          BACE Randomizer
-        </Label>
-      </TitleBar>
-      <WindowContent>
-        <Content>
-          <Group>
-            {Object.keys(Categories).map((key) => (
-              <Button
-                key={key}
-                buttonColor={
-                  currentCategory === key
-                    ? "dangerousActionColor"
-                    : "secondaryActionColor"
-                }
-                onClick={(event: MouseEvent) => {
-                  setCurrentCategory(key);
-                  setCurrentOptions(Categories[currentCategory]);
-                  showConfetti(event.pageX, event.pageY);
-                }}
-              >
-                <Label>{key}</Label>
-              </Button>
-            ))}
-          </Group>
-          <Group>
-            <Button
-              buttonColor="primaryActionColor"
-              onClick={(event: MouseEvent) => {
-                setCurrentOptions(Categories[currentCategory]);
-                showConfetti(event.pageX, event.pageY);
-              }}
-            >
-              <Label>All</Label>
-            </Button>
-            <Button
-              buttonColor="primaryActionColor"
-              onClick={(event: MouseEvent) => {
-                randomize(currentCategory, ALL);
-                showConfetti(event.pageX, event.pageY);
-              }}
-            >
-              <Label>Randomize</Label>
-            </Button>
-            <Button
-              buttonColor="primaryActionColor"
-              onClick={(event: MouseEvent) => {
-                randomize(currentCategory, 3);
-                showConfetti(event.pageX, event.pageY);
-              }}
-            >
-              <Label>Random 3</Label>
-            </Button>
-          </Group>
-        </Content>
-        <ListContainer>
-          <Scrollable Container={ListWrapper}>
-            <List>
-              {options.map((option) => (
-                <Label key={option} as="li" lineHeight="1.5rem" weight={400}>
-                  {option}
-                </Label>
+    <>
+      <Window
+        width="min(calc(100vw - 32px), 320px)"
+        height="min(calc(100vh - 32px), 640px)"
+      >
+        <TitleBar>
+          <Label
+            as="h1"
+            family={LabelFontFamily.Serif}
+            size="2rem"
+            lineHeight="48px"
+            weight="600"
+          >
+            BACE Randomizer
+          </Label>
+        </TitleBar>
+        <WindowContent>
+          <Content>
+            <Group>
+              {BACE_ORDER.map((key) => (
+                <CategoryButton
+                  key={key}
+                  category={key}
+                  isActive={key === currentCategory}
+                  onSelectCategory={handleSelectCategory}
+                />
               ))}
-            </List>
-          </Scrollable>
-        </ListContainer>
-      </WindowContent>
-    </Window>
+            </Group>
+            <Group>
+              <Button onClick={showAll}>
+                <Label>All</Label>
+              </Button>
+              <Button buttonColor="primaryActionColor" onClick={showRandom}>
+                <Label>Randomize</Label>
+              </Button>
+              <Button buttonColor="primaryActionColor" onClick={showRandom3}>
+                <Label>Random 3</Label>
+              </Button>
+            </Group>
+          </Content>
+          {!isEditing && (
+            <ListContainer>
+              <Scrollable Container={ListWrapper}>
+                <List>
+                  {options.map((option) => (
+                    <Label
+                      key={option}
+                      as="li"
+                      lineHeight="1.5rem"
+                      weight={400}
+                    >
+                      {option}
+                    </Label>
+                  ))}
+                </List>
+              </Scrollable>
+            </ListContainer>
+          )}
+          {isEditing && (
+            <TextArea onChange={handleEdit} value={categoryInput} />
+          )}
+          <ButtonWrapper>
+            <Button
+              width="calc(50% - 6px)"
+              height="48px"
+              buttonColor="primaryActionColor"
+              onClick={isEditing ? finishEditing : beginEditing}
+            >
+              <Label>{isEditing ? "Done" : "Edit"}</Label>
+            </Button>
+            <Button width="calc(50% - 6px)" height="48px" onClick={share}>
+              <Label>Save/Share</Label>
+            </Button>
+          </ButtonWrapper>
+          <Footer>
+            <Label weight={400} align="center">
+              @bkdoormaus on <a href="https://discord.com">Discord</a>/
+              <a href="https://bsky.app/profile/bkdoormaus.bsky.social">
+                BlueSky
+              </a>
+              !
+            </Label>
+            <Label weight={400} align="center">
+              Make a copy of the{" "}
+              <a href="https://docs.google.com/spreadsheets/d/1xrVOBhFbCtOEq9atx0VqgMVyO4B54V4c5Ds8ZUqS6PM/edit?usp=sharing">
+                BACE Spreadsheet
+              </a>
+              !
+            </Label>
+          </Footer>
+        </WindowContent>
+      </Window>
+      {isShowingPopup && (
+        <Popup>
+          <Window
+            width="min(calc(100vw - 32px), 320px)"
+            height="min(calc(100vh - 32px), 640px)"
+          >
+            <TitleBar>
+              <Label
+                as="h1"
+                family={LabelFontFamily.Serif}
+                size="2rem"
+                lineHeight="48px"
+                weight="600"
+              >
+                Share
+              </Label>
+              <Button
+                width="48px"
+                height="48px"
+                buttonColor="closeButton"
+                onClick={closePopup}
+              >
+                <Label>X</Label>
+              </Button>
+            </TitleBar>
+            <PopupContent>
+              <div>
+                <Label weight={400} lineHeight="24px">
+                  Copy this link to bookmark or share the BACE activities
+                  between devices.
+                </Label>
+                <Label color={theme.dangerousActionColor} lineHeight="24px">
+                  ⚠️ If you lose this link, any changes you made will be lost if
+                  you don't save with the "Save" button below.
+                </Label>
+              </div>
+              <Group width="calc(100% - 24px)" height="24px">
+                <ShareLink
+                  ref={shareLinkRef}
+                  tabIndex={0}
+                  onClick={handleClickShareLink}
+                  onKeyDown={handlePressShareLink}
+                >
+                  <Label family={LabelFontFamily.Monospace} lineHeight="24px">
+                    {shareURL}
+                  </Label>
+                </ShareLink>
+              </Group>
+              <Button
+                buttonColor="primaryActionColor"
+                width="100%"
+                height="48px"
+                onClick={handleClickShareLink}
+                disabled={didCopy}
+              >
+                <Label>{didCopy ? "Copied!" : "Copy Link"}</Label>
+              </Button>
+              <div>
+                <Label weight={400} lineHeight="24px">
+                  Or click this button to save locally to your device. You can
+                  always use the link above to share later.
+                </Label>
+                <Label color={theme.dangerousActionColor} lineHeight="24px">
+                  ⚠️ This will overwrite any saved BACE activity data on this
+                  device. Please proceed with caution if using a shared link.
+                </Label>
+              </div>
+              <Button
+                buttonColor="primaryActionColor"
+                width="100%"
+                height="48px"
+                onClick={save}
+              >
+                <Label>Save!</Label>
+              </Button>
+              <Button
+                buttonColor="closeButton"
+                width="100%"
+                height="48px"
+                onClick={closePopup}
+              >
+                <Label>Close</Label>
+              </Button>
+            </PopupContent>
+          </Window>
+        </Popup>
+      )}
+    </>
   );
 };
 

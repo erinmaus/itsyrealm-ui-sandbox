@@ -15,6 +15,9 @@ const DEFAULT_THEME = {
   textInputFont: "#423829",
   textInputColor: "#bfab8a",
   closeButton: "#c83737",
+  primaryLinkColor: "#5fbcd3",
+  secondaryLinkColor: "#afdde9",
+  tertiaryLinkColor: "#c83737",
 
   primaryActionColor: "#bc5fd3",
   secondaryActionColor: "#9c7e55",

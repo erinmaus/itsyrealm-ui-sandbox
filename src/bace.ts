@@ -1,0 +1,63 @@
+export type Categories = Record<string, string[]>;
+
+export const DEFAULT_CATEGORIES: Categories = {
+  Body: [
+    "bike",
+    "stroll",
+    "dog sports",
+    "hiking",
+    "meal prep",
+    "walk dogs",
+    "eat healthy",
+    "good things journal",
+    "journal emotions",
+  ],
+
+  Achievement: [
+    "work on 10% time",
+    "clean office",
+    "laundry",
+    "c.s. catch-up",
+    "math catch-up",
+    "career development",
+    "plan L&L",
+    "document something",
+    "tech debt",
+  ],
+
+  Community: [
+    "call friend",
+    "call Grandma",
+    "spend 1-1 time with Jesse",
+    "attend club/meet-up",
+    "attend PUUC",
+    "participate DSA",
+    "contribute to open source",
+    "date night with Jesse",
+    "volunteer",
+  ],
+
+  Enjoyment: [
+    "write poetry",
+    "write prose",
+    "write something technical",
+    "play online game",
+    "play single player game",
+    "model something 3D",
+    "animate something 3D",
+    "sketch something",
+    "illustrate something",
+    "practice art",
+    "read something technical",
+    "read fiction",
+    "plan travel",
+    "plan staycation/weekend excursion",
+    "plan video game",
+    "travel somewhere",
+    "ItsyRealm",
+    "dine out",
+    "movie",
+    "TV show",
+    "go to theme park",
+  ],
+};
