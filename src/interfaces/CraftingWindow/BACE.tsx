@@ -283,11 +283,18 @@ const BACE = () => {
     [categories, setCurrentOptions],
   );
 
-  const beginEditing = useCallback(() => {
-    setCategoryInput(categories[currentCategory].join("\n"));
-    setIsEditing(true);
-    setDidSave(false);
-  }, [categories, currentCategory, setCategoryInput, setIsEditing]);
+  const beginEditing = useCallback(
+    (category?: string) => {
+      setCategoryInput(categories[category ?? currentCategory].join("\n"));
+      setIsEditing(true);
+      setDidSave(false);
+    },
+    [categories, currentCategory, setCategoryInput, setIsEditing],
+  );
+
+  const handleBeginEdit = useCallback(() => {
+    beginEditing();
+  }, [beginEditing]);
 
   const handleEdit = useCallback(
     (event: ChangeEvent<HTMLTextAreaElement>) => {
@@ -296,34 +303,40 @@ const BACE = () => {
     [setCategoryInput],
   );
 
-  const finishEditing = useCallback(
+  const finishEditing = useCallback(() => {
+    const { [currentCategory]: editedCategory, ...otherCategories } =
+      categories;
+
+    const result = {
+      ...otherCategories,
+      [currentCategory]: categoryInput
+        .split("\n")
+        .map((item) => item.trim())
+        .filter((item) => item),
+    };
+
+    setCategories(result);
+    setCurrentOptions(result[currentCategory]);
+
+    setIsEditing(false);
+  }, [
+    categories,
+    categoryInput,
+    currentCategory,
+    setCategories,
+    setIsEditing,
+    setCurrentOptions,
+  ]);
+
+  const handleFinishEdit = useCallback(
     (event: MouseEvent) => {
-      const { [currentCategory]: editedCategory, ...otherCategories } =
-        categories;
+      finishEditing();
 
-      const result = {
-        ...otherCategories,
-        [currentCategory]: categoryInput
-          .split("\n")
-          .map((item) => item.trim())
-          .filter((item) => item),
-      };
-
-      setCategories(result);
-      setCurrentOptions(result[currentCategory]);
-
-      showConfetti(event.pageX, event.pageY);
-
-      setIsEditing(false);
+      if (event) {
+        showConfetti(event.pageX, event.pageY);
+      }
     },
-    [
-      categories,
-      categoryInput,
-      currentCategory,
-      setCategories,
-      setIsEditing,
-      setCurrentOptions,
-    ],
+    [finishEditing],
   );
 
   const share = useCallback(
@@ -378,9 +391,17 @@ const BACE = () => {
 
   const handleSelectCategory = useCallback(
     (category: string) => {
+      if (isEditing) {
+        finishEditing();
+      }
+
       setCurrentCategory(category);
+
+      if (isEditing) {
+        beginEditing(category);
+      }
     },
-    [setCurrentCategory],
+    [isEditing, finishEditing, beginEditing, setCurrentCategory],
   );
 
   const showAll = useCallback(() => {
@@ -482,7 +503,7 @@ const BACE = () => {
               width="calc(50% - 6px)"
               height="48px"
               buttonColor="primaryActionColor"
-              onClick={isEditing ? finishEditing : beginEditing}
+              onClick={isEditing ? handleFinishEdit : handleBeginEdit}
             >
               <Label>{isEditing ? "Done" : "Edit"}</Label>
             </Button>
