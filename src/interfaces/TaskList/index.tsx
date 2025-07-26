@@ -329,7 +329,7 @@ const TaskList = () => {
                   return (
                     <Content>
                       <img
-                        src="/Tasks/Done.png"
+                        src="Tasks/Done.png"
                         alt="task done"
                         role="button"
                         width="48px"
@@ -362,7 +362,7 @@ const TaskList = () => {
                   return (
                     <Content>
                       <img
-                        src="/Tasks/Pending.png"
+                        src="Tasks/Pending.png"
                         alt="task pending"
                         role="button"
                         width="48px"
