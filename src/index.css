@@ -28,11 +28,19 @@ body {
     linear-gradient(to top right, #8d5fd3, #592db3);
 
   min-width: 100svw;
+
+  height: fit-content;
   min-height: 100svh;
 }
 
 #root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   position: relative;
   min-width: 100svw;
+
+  height: fit-content;
   min-height: 100svh;
 }

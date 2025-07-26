@@ -16,7 +16,7 @@ type DivProps = React.DetailedHTMLProps<
 >;
 
 interface BaseScrollableProps {
-  Container: React.ComponentType<DivProps>;
+  Container?: React.ComponentType<DivProps>;
 }
 
 export type ScrollableProps = BaseScrollableProps & DivProps;
@@ -34,9 +34,19 @@ const Track = styled.div`
   height: calc(100% - 96px);
 `;
 
+const DefaultContainer = styled.div`
+  position: relative;
+  overflow: scroll;
+  height: 100%;
+`;
+
 const SCROLL_SPEED_PIXELS_PER_SECOND = 100;
 
-const Scrollable = ({ children, Container, ...props }: ScrollableProps) => {
+const Scrollable = ({
+  children,
+  Container = DefaultContainer,
+  ...props
+}: ScrollableProps) => {
   const scrollDownButton = useRef<HTMLButtonElement>(null);
   const scrollUpButton = useRef<HTMLButtonElement>(null);
   const scrollThumbButton = useRef<HTMLButtonElement>(null);
@@ -79,6 +89,8 @@ const Scrollable = ({ children, Container, ...props }: ScrollableProps) => {
           clientHeight: containerHeight,
           scrollHeight: containerScrollHeight,
         } = container;
+
+        console.log({ containerHeight, containerScrollHeight });
 
         setVisible(containerHeight > containerScrollHeight);
         setContent(container);
@@ -182,8 +194,6 @@ const Scrollable = ({ children, Container, ...props }: ScrollableProps) => {
 
   useEffect(() => {
     if (isScrollingUp && container) {
-      console.log("--- is scrolling up", isScrollingUp);
-
       let startTime: DOMHighResTimeStamp;
       let handle: number;
       const scrollUp = (currentTime: DOMHighResTimeStamp) => {

@@ -5,6 +5,7 @@ import Smith from "./db/Smith.json";
 import { useRecoloredImage } from "./images";
 import BACE from "./interfaces/CraftingWindow/BACE";
 import CraftingWindow from "./interfaces/CraftingWindow/CraftingWindow";
+import TaskList from "./interfaces/TaskList";
 
 const DEFAULT_THEME = {
   background: "#7f684a",
@@ -44,6 +45,7 @@ function App() {
         <Routes>
           <Route path="/" element={<CraftingWindow list={Smith} />} />
           <Route path="/bace" element={<BACE />} />
+          <Route path="/task" element={<TaskList />} />
         </Routes>
       </HashRouter>
     </ThemeProvider>

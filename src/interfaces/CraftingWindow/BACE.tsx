@@ -18,6 +18,7 @@ import Group, { GroupStyle } from "../../components/panel/Group";
 import TitleBar from "../../components/panel/TitleBar";
 import Scrollable from "../../components/scrollable/Scrollable";
 import Window from "../../components/window/Window";
+import { useShowConfetti } from "../../useShowConfetti";
 
 const WindowContent = styled.div`
   overflow: hidden;
@@ -112,27 +113,6 @@ const Footer = styled.div`
   margin-top: 8px;
 `;
 
-const showConfetti = async (x: number, y: number) => {
-  const result = await fetch("Animations/Confetti.png");
-  const url = URL.createObjectURL(await result.blob());
-
-  const element = document.createElement("img");
-  element.src = url;
-  element.style.position = "fixed";
-  element.style.pointerEvents = "none";
-  element.onload = () => {
-    element.style.left = `${x - element.width / 2}px`;
-    element.style.top = `${y - element.height / 2}px`;
-
-    setTimeout(() => {
-      element.parentElement?.removeChild(element);
-      URL.revokeObjectURL(url);
-    }, 1500);
-  };
-
-  document.body.appendChild(element);
-};
-
 const ALL = 1 / 0;
 
 const DEFAULT_ACTIVITIES: Categories = {
@@ -214,6 +194,7 @@ const BACE = () => {
   const [didCopy, setDidCopy] = useState(false);
   const shareLinkRef = useRef<HTMLDivElement>(null);
   const [didSave, setDidSave] = useState(true);
+  const { showConfetti } = useShowConfetti();
 
   useEffect(() => {
     if (
@@ -336,7 +317,7 @@ const BACE = () => {
         showConfetti(event.pageX, event.pageY);
       }
     },
-    [finishEditing],
+    [finishEditing, showConfetti],
   );
 
   const share = useCallback(
@@ -345,7 +326,7 @@ const BACE = () => {
       setIsShowingPopup(true);
       showConfetti(event.pageX, event.pageY);
     },
-    [setIsShowingPopup, setDidCopy],
+    [setIsShowingPopup, setDidCopy, showConfetti],
   );
 
   const selectShareLink = useCallback(() => {
@@ -369,7 +350,7 @@ const BACE = () => {
       selectShareLink();
       showConfetti(event.pageX, event.pageY);
     },
-    [selectShareLink],
+    [selectShareLink, showConfetti],
   );
 
   const handlePressShareLink = useCallback(() => {
@@ -382,7 +363,7 @@ const BACE = () => {
       setDidSave(true);
       showConfetti(event.pageX, event.pageY);
     },
-    [categories],
+    [categories, setDidSave, showConfetti],
   );
 
   const closePopup = useCallback(() => {
@@ -413,7 +394,7 @@ const BACE = () => {
       randomize(currentCategory, ALL);
       showConfetti(event.pageX, event.pageY);
     },
-    [randomize, currentCategory],
+    [randomize, currentCategory, showConfetti],
   );
 
   const showRandom3 = useCallback(
@@ -421,7 +402,7 @@ const BACE = () => {
       randomize(currentCategory, 3);
       showConfetti(event.pageX, event.pageY);
     },
-    [randomize, currentCategory],
+    [randomize, currentCategory, showConfetti],
   );
 
   useEffect(() => {

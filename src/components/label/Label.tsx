@@ -26,7 +26,6 @@ export const LabelStyle = styled.p<TransientProps<LabelProps>>`
   font-weight: ${(props) => props.$weight ?? 500};
   font-style: ${(props) => props.$style ?? "normal"};
   color: ${(props) => props.color ?? props.theme.font};
-  mix-blend-mode: lighten;
   text-align: ${(props) => props.$align ?? "inherit"};
 
   &:not(:first-of-type) {
