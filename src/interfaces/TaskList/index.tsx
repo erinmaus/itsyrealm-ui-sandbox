@@ -30,15 +30,15 @@ const PaperWindow = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  min-width: 480px;
+  width: 320px;
   max-height: 640px;
-  padding: 32px;
-  gap: 32px;
+  padding: 8px;
+  gap: 8px;
 
   ${TextAreaStyle} {
     padding: 0px 8px;
-    line-height: 48px;
-    font-size: 32px;
+    line-height: 24px;
+    font-size: 16px;
     min-height: 12em;
     flex: 1;
   }
@@ -57,8 +57,8 @@ const WindowContent = styled.div`
   justify-content: flex-start;
   height: calc(100% - 64px);
   min-height: calc(640px - 64px);
-  padding: 32px;
-  gap: 32px;
+  padding: 12px;
+  gap: 8px;
 `;
 
 const TaskListContainer = styled.div`
@@ -332,14 +332,14 @@ const TaskList = () => {
                         src="Tasks/Done.png"
                         alt="task done"
                         role="button"
-                        width="48px"
-                        height="48px"
+                        width="24px"
+                        height="24px"
                         tabIndex={0}
                         onClick={toggle}
                       />
                       <Label
-                        lineHeight="48px"
-                        size="24px"
+                        lineHeight="24px"
+                        size="16px"
                         color={theme.darkBackgroundColor}
                       >
                         {task.replace(/^✅\s/, "")}
@@ -365,14 +365,14 @@ const TaskList = () => {
                         src="Tasks/Pending.png"
                         alt="task pending"
                         role="button"
-                        width="48px"
-                        height="48px"
+                        width="24px"
+                        height="24px"
                         tabIndex={0}
                         onClick={toggle}
                       />
                       <Label
-                        lineHeight="48px"
-                        size="24px"
+                        lineHeight="24px"
+                        size="16px"
                         color={theme.darkBackgroundColor}
                       >
                         {task}
